@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Karawaci Event Ruparupa 3</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style1.css" />
+        <link href="http://fonts.googleapis.com/css?family=Unlock|Cookie" rel="stylesheet" type="text/css" />
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:800,800italic,700' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 10]>
+				<link rel="stylesheet" type="text/css" href="css/style1IE.css" />
+		<![endif]-->
+    </head>
+    <body>
+        <div class="container">
+            <div class="header" style="visibility:hidden">
+                <span class="right">
+                    <a href="#" target="_blank">dssfsdfdsdsdf</a>
+                    <a href="#">
+                        <strong>dsfsdfsdfsdf</strong>
+                    </a>
+                </span>
+                <div class="clr"></div>
+            </div>
+            <!-- <h1 class="main">Be Ruparupa Family &amp; Loyal member</h1> -->
+			<p class="demos" style="visibility:hidden">
+				<a class="current-demo" href="index.html">fsdsdfsdf</a>
+			</p>
+			<div class="sp-container">
+				<div class="sp-content">
+					<div class="sp-row">
+						<span><img src="images/example1/1.png" /></span>
+						<span><img src="images/example1/2.png" /></span>
+						<span><img src="images/example1/3.png" /></span>
+						<span><img src="images/example1/4.png" /></span>
+						<span><img src="images/example1/5.png" /></span>
+					</div>
+					<div class="sp-row sp-side-row">
+						<span><img src="images/example1/11.png" /></span>
+						<span><img src="images/example1/12.png" /></span>
+					</div>
+					<div class="sp-row sp-content-row">
+						<h1>Shop Now!</h1>
+						<!-- <h2>Desain rumah anda untuk kenyamanan seluruh keluarga, dan penuhi kebutuhan harian anda di sini</h2> -->
+						<h1 class="sp-title"><em></em><img src="images/icon-Get-Voucher.png"/></h1>
+					</div>
+					<div class="sp-row sp-side-row">
+						<span><img src="images/example1/13.png" /></span>
+						<span><img src="images/example1/14.png" /></span>
+					</div>
+					<div class="sp-row">
+						<span><img src="images/example1/6.png" /></span>
+						<span><img src="images/example1/7.png" /></span>
+						<span><img src="images/example1/8.png" /></span>
+						<span><img src="images/example1/9.png" /></span>
+						<span><img src="images/example1/10.png" /></span>
+					</div>
+					<div class="sp-arrow"></div>
+				</div>
+				<div class="sp-side">
+					<!--<h2>Segera Daftar</h2>
+					<div class="sp-input">
+                    	<a href="https://www.ruparupa.com/customer/account/create/"><p class="daftar">DAFTAR</p></a>
+					</div>-->
+                    <a href="https://www.ruparupa.com/customer/account/create/">
+                    	<img src="images/lihat_sekarang_1.png"/>
+                    </a>
+				</div>
+			</div>
+        </div>
+        <script>
+		var refresh_rate = 60; //<-- In seconds, change to your needs
+var last_user_action = 0;
+var has_focus = false;
+var lost_focus_count = 0;
+var focus_margin = 10; // If we lose focus more then the margin we want to refresh
+
+
+function reset() {
+    last_user_action = 0;
+    console.log("Reset");
+}
+
+function windowHasFocus() {
+    has_focus = true;
+}
+
+function windowLostFocus() {
+    has_focus = false;
+    lost_focus_count++;
+    console.log(lost_focus_count + " <~ Lost Focus");
+}
+
+setInterval(function () {
+    last_user_action++;
+    refreshCheck();
+}, 1000);
+
+function refreshCheck() {
+    var focus = window.onfocus;
+    if ((last_user_action >= refresh_rate && !has_focus && document.readyState == "complete") || lost_focus_count > focus_margin) {
+        window.location = "http://rupa2.co/karawaciscreen"; // If this is called no reset is needed
+        reset(); // We want to reset just to make sure the location reload is not called.
+    }
+
+}
+window.addEventListener("focus", windowHasFocus, false);
+window.addEventListener("blur", windowLostFocus, false);
+window.addEventListener("click", reset, false);
+window.addEventListener("mousemove", reset, false);
+window.addEventListener("keypress", reset, false);
+		</script>
+    </body>
+</html>
