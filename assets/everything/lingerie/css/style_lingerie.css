@@ -1,0 +1,116 @@
+/*$max-content-width: value screen*/
+/*Category product*/
+/*button style*/
+/*Fix layout box*/
+@media (min-width: 1280px) {
+  .wrapper.em-box-custom .page {
+    width: 1280px;
+  }
+}
+.wrapper.em-box-custom {
+  padding: 40px 0;
+}
+
+.img-responsive {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.em-wrapper-ads-12 img.img-responsive {
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+/*Header*/
+.em-header-style27 .line-to {
+  border: 0;
+}
+
+/*Slideshow*/
+.em-slideshow {
+  margin-bottom: 0;
+}
+.em-slideshow .owl-theme .owl-controls .owl-buttons div {
+  top: 44%;
+}
+.em-slideshow .owl-carousel .owl-item .em-owlcarousel-des {
+  left: 15%;
+  top: 20%;
+  width: 67%;
+}
+
+/*Menu*/
+.em-wrapper-header .em-header-style27 .em-search:hover .em-search-icon,
+.em-wrapper-header .em-header-style27 .em_nav .hnav .menu-item-depth-0:hover > a.em-menu-link span, .em-wrapper-header .em-header-style27 .em_nav .hnav .menu-item-depth-0 > .em-catalog-navigation > li.level0:hover > a.em-menu-link span {
+  -webkit-box-shadow: 0 -3px 5px #f1f1f1;
+  -moz-box-shadow: 0 -3px 5px #f1f1f1;
+  box-shadow: 0 -3px 5px #f1f1f1;
+}
+
+.em-header-style27 .line-top {
+  border: 0;
+}
+
+/*Home*/
+.em-wrapper-area03 {
+  margin-bottom: 50px;
+}
+.em-wrapper-area03 .em-wrapper-ads-11 {
+  margin-bottom: 0;
+}
+
+.em-wrapper-brands {
+  margin: 0;
+}
+.em-wrapper-brands .slider-style02 {
+  margin: 40px 0;
+}
+
+.em-wrapper-ads-12 {
+  margin-bottom: 0;
+}
+
+.em-wrapper-ads-11 .em-ads-item {
+  padding: 4rem 2rem 4rem;
+}
+
+/*Footer*/
+/*Main Color Variation*/
+.em-color span.emColorStyle01 {
+  background: #fd4579;
+}
+.em-color span.emColorStyle01:before {
+  background: #424242;
+}
+.em-color span.emColorStyle01:after {
+  background: #fba8c0;
+}
+.em-color span.emColorStyle02 {
+  background: #37b8a6;
+}
+.em-color span.emColorStyle02:before {
+  background: #0a1b22;
+}
+.em-color span.emColorStyle02:after {
+  background: #83bfb7;
+}
+.em-color span.emColorStyle03 {
+  background: #7b34e8;
+}
+.em-color span.emColorStyle03:before {
+  background: #272727;
+}
+.em-color span.emColorStyle03:after {
+  background: #b9a0e1;
+}
+.em-color span.emColorStyle04 {
+  background: #11b2ee;
+}
+.em-color span.emColorStyle04:before {
+  background: #272727;
+}
+.em-color span.emColorStyle04:after {
+  background: #8bc7dd;
+}

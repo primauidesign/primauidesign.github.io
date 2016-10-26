@@ -1,0 +1,78 @@
+/*pager*/
+.multidealpro_products .sorter{ /*margin: 0 -10px; padding: 0 20px;*/}
+.multidealpro_products .sorter .view-mode{ margin-top:0px; font-size:0; margin-bottom:10px}
+.multidealpro_products .pager{ /*float:right;*/ margin:0}
+.multidealpro_products .toolbar .pager{ display:none}
+.multidealpro_products .toolbar-bottom{ margin: 0 -10px;
+padding: 0 20px;}
+.multidealpro_products .toolbar-bottom .toolbar .pager{ display:inline}
+.multidealpro_products .toolbar .pager .amount{ display:inline-block; margin-top:3px}
+.multidealpro_products .toolbar-bottom .toolbar{ padding-top:10px}
+
+.show_clock{ margin-bottom:12px; clear:both}
+.multidealpro_products .products-grid{padding-top:0px; }
+.em_col_content .multidealpro_products .products-grid{margin-right:-20px }
+
+.multidealpro_products .products-grid li.item { margin-bottom:30px}
+.multidealpro_products .products-grid.first{margin-top:20px; padding-top:0}
+.multidealpro_products .products-grid li.item.last{ margin-right:0}
+.block-multideal .products-grid .product-shop .price-box{ margin-bottom:7px}
+.block-multideal{ padding-bottom:10px}
+.block-multideal .note-msg{ margin:10px 10px 0}
+.products-list .price-box{ width:100%}
+
+.products-list li.item .sale_off{ right:auto; left:10px}
+.sale_off{position:absolute; top:10px; left:10px; padding:9px; text-align:center; min-width:55px; background:url(../images/sale-off.html) center 0 no-repeat; min-width:79px; min-height:46px; text-transform:lowercase; }
+.sale_off span{}
+.sale_off.queued{background:url(../images/comming-soon.html) 0 0 no-repeat; padding:3px; font-size:100%}
+.sale_off.queued span{display:block}
+.deal_qty{ margin-top:5px; text-align:center; padding-bottom:0; overflow:hidden; clear:both; display:inline-block; width:100%}
+.deal_qty .qty_left.soldin{ }
+
+.msg_soldout{ color:#fb040a; font-size:36px; margin-bottom:7px; padding-top:7px; border-top:1px solid #cccccb; clear:both}
+ul.clock_sub{ padding-left:0;}
+/*Block Deal*/
+.show_details{ clear:both}
+.show_details .title span,
+.deal_title span{ display:block}
+.multidealpro_recent{ margin-bottom:20px;float:none;width:100%;}
+.multidealpro_recent .multidealpro_products{margin:0;
+-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.multidealpro_recent .products-grid li.item .actions{ width:100%}
+.multidealpro_recent .products-grid li.item .actions > p{ margin:0}
+.show_details .show_clock{ padding:20px 20px 23px; border-width:1px !important; border-style: solid; border-top:none}
+.multidealpro_recent .multidealpro_products{ padding:20px 0px 5px}
+.show_details .show_clock{padding:15px 30px;margin:0;}
+.multidealpro_recent .multidealpro_products .products-grid { width:auto; min-height:0; margin:0 !important;}
+.multidealpro_recent .multidealpro_products .products-grid li.item{ width:auto; min-height:0; padding:15px; border:none; border-top:1px dashed; margin-bottom:0}
+.multidealpro_recent .multidealpro_products .products-grid li.item:first-child{ border:none}
+.sidebar .products-grid .product-image{ margin-right:0; width:auto; height:auto; text-align:center}
+
+.product-view .show_details .price-box{ margin-top:0}
+.clockoff {float:left; background:#333; margin-bottom:10px; padding:0px 10px 1px; border-radius:3px;
+-webkit-border-radius: 3px;
+-moz-border-radius:3px; margin-top:5px; margin-bottom:16px}
+.clockoff > div span{ font-size:18px}
+.clockoff > div{ float:left; font-size:14px; margin-right:5px; font-weight:bold; color:#fff;}
+.clockoff > div.title{ text-transform:uppercase; font-size:16px; margin-top:3px}
+
+/*Clock*/
+.em_multidealpro .product-shop{}
+
+.show_clock .clock{ clear:both;width:100%}
+.show_details .show_clock .clock{ position:static}
+.clock_style_1{overflow:hidden;margin:0 0 20px;}
+.clock_style_1 .clock li{display:inline-block;/*float:left;*/text-align:center;margin:0 10px 1px 0;}
+.clock_style_1 .clock > li{margin:0 0 1px 0;}
+.clock_style_1 .clock > li:first-child{margin:0 10px 1px 0;}
+.clock_style_1 .clock li span{
+	height: 32px;
+	line-height: 32px;
+	display: inline-block;
+	padding: 0 10px;
+	position: relative; min-width:45px; z-index:0}
+
+.clock_style_1 .clock li span:before{ content:'';position:absolute; top:0; left:0; height:50%; border-bottom:1px solid #4e4e4e; width:100%; background:#464646; z-index:-1}
+.clock_style_1 .clock li span{}
+.clock_style_1 .clock li p{text-transform:uppercase;/*font-size:8px;*/margin:0; padding:7px 0 0}
+.show_details .clock_style_1 .clock li{margin-bottom:0;}

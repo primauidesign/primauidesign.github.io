@@ -1,0 +1,123 @@
+.em-slideshow {
+  margin: 1px;
+}
+
+.em_nav {
+  margin: 1px;
+}
+
+.em-wrapper-banners {
+  margin-bottom: 0;
+  clear: both;
+}
+
+.cms-index-index .em-wrapper-main .container-main {
+  padding-top: 0;
+}
+
+.img-banner {
+  margin: 1px;
+}
+.img-banner img {
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.img-banner .desc {
+  position: absolute;
+  margin: 0 1rem;
+  color: #fff;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.img-banner .desc.position1 {
+  right: 5%;
+  bottom: 15%;
+}
+.img-banner .desc.position2 {
+  left: 5%;
+  bottom: 15%;
+}
+.img-banner .desc.position3 {
+  left: 0;
+  top: 30%;
+  right: 0;
+}
+.img-banner .desc.position4 {
+  right: 5%;
+  top: 14%;
+}
+.img-banner .desc.position5 {
+  left: 0;
+  top: 10%;
+  right: 0;
+}
+.img-banner .desc.position6 {
+  top: 20%;
+  right: 20%;
+}
+.img-banner .desc.position7 {
+  left: 10%;
+  top: 15%;
+}
+.img-banner:hover {
+  background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+  background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+}
+.img-banner:hover .banner-img img {
+  opacity: 0.5;
+}
+.img-banner:hover .position1 {
+  right: 15%;
+}
+.img-banner:hover .position2 {
+  left: 10%;
+}
+.img-banner:hover .position3 {
+  top: 40%;
+}
+.img-banner:hover .position4 {
+  right: 15%;
+}
+.img-banner:hover .position5 {
+  top: 30%;
+}
+.img-banner:hover .position7 {
+  top: 30%;
+}
+.img-banner:hover .position6 {
+  right: 35%;
+}
+
+.img-responsive {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.em-wrapper-brands {
+  margin: 50px 0;
+}
+
+/*Main Color Variation*/
+.em-color span.emColorStyle01 {
+  background: #0a9efa;
+}
+.em-color span.emColorStyle02 {
+  background: #B30707;
+}
+.em-color span.emColorStyle03 {
+  background: #e76f32;
+}
+.em-color span.emColorStyle04 {
+  background: #488e53;
+}

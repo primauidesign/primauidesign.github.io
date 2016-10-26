@@ -1,0 +1,133 @@
+.em-wrapper-content {
+  padding-left: 280px !important;
+}
+
+.em-slideshow .owl-carousel .owl-item .em-owlcarousel-des {
+  left: 15%;
+  top: 25%;
+  width: 70%;
+}
+
+.em-clear-padding .img-banner .img-responsive {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+.em-clear-padding .img-banner .desc {
+  position: absolute;
+  color: #fff;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  left: 0;
+  width: 100%;
+  padding: 0 1rem;
+  bottom: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+.em-clear-padding .img-banner .desc a.button-link {
+  float: none;
+  display: inline-block;
+  height: 0;
+  padding: 0;
+  font-size: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.em-clear-padding .img-banner:hover {
+  background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+  background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+}
+.em-clear-padding .img-banner:hover .banner-img img {
+  opacity: 0.5;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.em-clear-padding .img-banner:hover .desc {
+  bottom: 10%;
+  cursor: pointer;
+}
+.em-clear-padding .img-banner:hover .desc .button-link {
+  height: 100%;
+  padding: 10px 25px;
+  font-size: 100%;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.wrapper-breadcrums {
+  padding-left: 1rem;
+}
+
+/*menu default*/
+.nav-container .hnav .menu-item-depth-0,
+.nav-container .hnav .menu-item-depth-0 > .em-catalog-navigation > li.level0 {
+  float: none;
+  width: 100%;
+  margin-right: 0;
+}
+.nav-container .hnav .menu-item-depth-0 > a span,
+.nav-container .hnav .menu-item-depth-0 > .em-catalog-navigation > li.level0 > a span {
+  padding-left: 0;
+  border-bottom-width: 1px;
+}
+.nav-container .hnav .menu-item-depth-0:hover > ul,
+.nav-container .hnav .menu-item-depth-0 > .em-catalog-navigation > li.level0:hover > ul {
+  left: 100%;
+  top: -1px;
+}
+
+.em-rtl .nav-container .hnav .menu-item-depth-0:hover > ul,
+.em-rtl .nav-container .hnav .menu-item-depth-0 > .em-catalog-navigation > li.level0:hover > ul {
+  left: auto;
+  right: 100%;
+}
+
+/*Main Color Variation*/
+.em-color span.emColorStyle01 {
+  background: #afc030;
+}
+.em-color span.emColorStyle01:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle01:after {
+  background: #000000;
+}
+.em-color span.emColorStyle02 {
+  background: #e76f32;
+}
+.em-color span.emColorStyle02:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle02:after {
+  background: #000000;
+}
+.em-color span.emColorStyle03 {
+  background: #f1b737;
+}
+.em-color span.emColorStyle03:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle03:after {
+  background: #000000;
+}
+.em-color span.emColorStyle04 {
+  background: #446aa7;
+}
+.em-color span.emColorStyle04:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle04:after {
+  background: #000000;
+}

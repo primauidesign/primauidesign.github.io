@@ -1,0 +1,61 @@
+.em-slideshow {
+  margin-bottom: 0;
+}
+.em-slideshow .owl-theme .owl-controls .owl-buttons div {
+  top: 44%;
+}
+.em-slideshow .owl-carousel .owl-item .em-owlcarousel-des {
+  left: 15%;
+  top: 17%;
+  width: 70%;
+}
+
+.em-wrapper-brands {
+  margin: 0;
+}
+.em-wrapper-brands .slider-style02 {
+  margin: 40px 0;
+}
+
+@media (min-width: 980px) {
+  .form-search input.input-text {
+    width: 310px;
+  }
+}
+/*Main Color Variation*/
+.em-color span.emColorStyle01 {
+  background: #50403f;
+}
+.em-color span.emColorStyle01:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle01:after {
+  background: #000000;
+}
+.em-color span.emColorStyle02 {
+  background: #52a360;
+}
+.em-color span.emColorStyle02:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle02:after {
+  background: #000000;
+}
+.em-color span.emColorStyle03 {
+  background: #ff6b8a;
+}
+.em-color span.emColorStyle03:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle03:after {
+  background: #000000;
+}
+.em-color span.emColorStyle04 {
+  background: #c85181;
+}
+.em-color span.emColorStyle04:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle04:after {
+  background: #000000;
+}
