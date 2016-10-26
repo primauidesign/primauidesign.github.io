@@ -1,0 +1,8 @@
+@media (max-width: 991px) and (min-width: 768px){
+	.em-header-style28 .em_nav .hnav .menu-item-depth-0 > a span, .em-header-style28 .em_nav .hnav .menu-item-depth-0 > .em-catalog-navigation > li.level0 > a span{ padding:13px 15px}
+}
+@media (max-width: 1199px) and (min-width: 768px){
+	.em-logo{text-align:center; padding-bottom:20px; max-width:100%;}
+	.cms-index-index .em-header-style28 .em-menu-fix-pos .em-wrapper-header-top{ position:static;}
+	
+}

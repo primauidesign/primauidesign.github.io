@@ -1,0 +1,82 @@
+.em-slideshow {
+  margin-bottom: 0;
+}
+.em-slideshow .owl-theme .owl-controls .owl-buttons div {
+  top: 44%;
+}
+.em-slideshow .owl-carousel .owl-item .em-owlcarousel-des {
+  left: 15%;
+  top: 32%;
+  width: 67%;
+}
+.em-slideshow .img-responsive {
+  /*height:100vh !important; width:100% !important*/
+}
+
+.em-wrapper-best {
+  margin-top: 50px;
+}
+.em-wrapper-best button.button.btn-cart {
+  font-size: 0;
+}
+.em-wrapper-best button.button.btn-cart span {
+  padding: 0;
+}
+.em-wrapper-best.em-line-01 {
+  margin-bottom: 20px;
+}
+
+.cms-index-index .em-col-main {
+  min-height: 0;
+}
+
+.cms-index-index .em-wrapper-main .container-main {
+  padding-top: 0;
+}
+
+@media (min-width: 768px) {
+  .cms-index-index .em-wrapper-header {
+    background: none;
+  }
+}
+.em-wrapper-area06 {
+  padding: 20px 0;
+}
+
+/*Main Color Variation*/
+.em-color span.emColorStyle01 {
+  background: #87ab03;
+}
+.em-color span.emColorStyle01:before {
+  background: #67a9bf;
+}
+.em-color span.emColorStyle01:after {
+  background: #7cbbd0;
+}
+.em-color span.emColorStyle02 {
+  background: #f58e2f;
+}
+.em-color span.emColorStyle02:before {
+  background: #455660;
+}
+.em-color span.emColorStyle02:after {
+  background: #5b6b74;
+}
+.em-color span.emColorStyle03 {
+  background: #dc0604;
+}
+.em-color span.emColorStyle03:before {
+  background: #a57070;
+}
+.em-color span.emColorStyle03:after {
+  background: #cbaaaa;
+}
+.em-color span.emColorStyle04 {
+  background: #9d0059;
+}
+.em-color span.emColorStyle04:before {
+  background: #1f2722;
+}
+.em-color span.emColorStyle04:after {
+  background: #343a37;
+}

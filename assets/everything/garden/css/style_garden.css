@@ -1,0 +1,85 @@
+.em-slideshow {
+  margin-bottom: 0;
+}
+
+.em-wrapper-brands .slider-style02 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin: 0;
+}
+
+.em-wrapper-ads-09 {
+  border-width: 0;
+  padding: 4rem 1rem 3rem;
+}
+.em-wrapper-ads-09.em-background-wrapper-ads {
+  background-image: url(../images/em_ads_05.jpg);
+}
+
+.em-wrapper-ads-12 {
+  margin-bottom: 0;
+}
+.em-wrapper-ads-12:first-child {
+  margin-bottom: 20px;
+}
+
+.em-wrapper-ads-11 .em-ads-grid-item {
+  border-width: 1px;
+  border-style: solid;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 3rem 2rem 4.4rem;
+  min-height: 442px;
+}
+.em-wrapper-ads-11 .em-ads-grid-item .em-ads-item {
+  border-top-width: 1px;
+  border-top-style: dotted;
+  padding: 3rem 0 1rem;
+}
+.em-wrapper-ads-11 .em-ads-grid-item .em-ads-item:first-child {
+  border-top-width: 0;
+  padding-top: 0rem;
+}
+
+/*Main Color Variation*/
+.em-color span.emColorStyle01 {
+  background: #fdb9d6;
+}
+.em-color span.emColorStyle01:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle01:after {
+  background: #000000;
+}
+.em-color span.emColorStyle02 {
+  background: #0a9efa;
+}
+.em-color span.emColorStyle02:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle02:after {
+  background: #000000;
+}
+.em-color span.emColorStyle03 {
+  background: #f91a10;
+}
+.em-color span.emColorStyle03:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle03:after {
+  background: #000000;
+}
+.em-color span.emColorStyle04 {
+  background: #e0b799;
+}
+.em-color span.emColorStyle04:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle04:after {
+  background: #000000;
+}

@@ -1,0 +1,80 @@
+.em-slideshow {
+  margin-bottom: 20px;
+}
+.em-slideshow .owl-theme .owl-controls .owl-buttons div {
+  top: 44%;
+}
+.em-slideshow .owl-carousel .owl-item .em-owlcarousel-des {
+  left: 15%;
+  top: 20%;
+  width: 67%;
+}
+
+.em-wrapper-area02 .em-wrapper-banners,
+.em-wrapper-area03 .em-wrapper-banners {
+  margin-bottom: 20px;
+}
+
+#em-mheader .em-top-search .form-search input.input-text {
+  border-width: 1px;
+  border-style: solid;
+}
+
+/*footer full in box*/
+body {
+  overflow-x: hidden;
+}
+
+.wrapper.em-box-custom .em-wrapper-footer {
+  position: relative;
+}
+.wrapper.em-box-custom .em-wrapper-footer > div {
+  left: -500px;
+  right: -500px;
+  position: absolute;
+  top: 0;
+}
+
+/*Fix layout box*/
+@media (min-width: 1280px) {
+  .wrapper.em-box-custom .page {
+    width: 1280px;
+  }
+}
+/*Main Color Variation*/
+.em-color span.emColorStyle01 {
+  background: #fdb9d6;
+}
+.em-color span.emColorStyle01:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle01:after {
+  background: #000000;
+}
+.em-color span.emColorStyle02 {
+  background: #0a9efa;
+}
+.em-color span.emColorStyle02:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle02:after {
+  background: #000000;
+}
+.em-color span.emColorStyle03 {
+  background: #f91a10;
+}
+.em-color span.emColorStyle03:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle03:after {
+  background: #000000;
+}
+.em-color span.emColorStyle04 {
+  background: #e0b799;
+}
+.em-color span.emColorStyle04:before {
+  background: #ffffff;
+}
+.em-color span.emColorStyle04:after {
+  background: #000000;
+}

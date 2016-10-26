@@ -1,0 +1,50 @@
+.em-wrapper-area09 .text-box {
+  margin: 32px 0;
+}
+.em-wrapper-area09 .em-wrapper-ads-13 .icon-banner-left {
+  border-width: 2px;
+  border-style: solid;
+}
+
+#em-mheader .em-top-search .form-search input.input-text {
+  border-width: 1px;
+  border-style: solid;
+}
+
+/*Main Color Variation*/
+.em-color span.emColorStyle01 {
+  background: #33ccff;
+}
+.em-color span.emColorStyle01:before {
+  background: #1F4A59;
+}
+.em-color span.emColorStyle01:after {
+  background: #B85954;
+}
+.em-color span.emColorStyle02 {
+  background: #ff9000;
+}
+.em-color span.emColorStyle02:before {
+  background: #C77306;
+}
+.em-color span.emColorStyle02:after {
+  background: #FDCC30;
+}
+.em-color span.emColorStyle03 {
+  background: #e50d54;
+}
+.em-color span.emColorStyle03:before {
+  background: #980334;
+}
+.em-color span.emColorStyle03:after {
+  background: #eda9c0;
+}
+.em-color span.emColorStyle04 {
+  background: #7e54d3;
+}
+.em-color span.emColorStyle04:before {
+  background: #39177e;
+}
+.em-color span.emColorStyle04:after {
+  background: #d51af1;
+}

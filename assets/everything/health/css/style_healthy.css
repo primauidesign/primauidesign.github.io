@@ -1,0 +1,33 @@
+.em-slideshow {
+  margin-bottom: 50px;
+}
+.em-slideshow .owl-theme .owl-controls .owl-buttons div {
+  top: 44%;
+}
+.em-slideshow .owl-carousel .owl-item .em-owlcarousel-des {
+  left: 15%;
+  top: 32%;
+  width: 67%;
+}
+
+.em-wrapper-area05 .text-box {
+  margin: 30px 0;
+}
+.em-wrapper-area05 .em-wrapper-ads-13 .icon-banner-left {
+  border-width: 2px;
+  border-style: solid;
+}
+
+/*Main Color Variation*/
+.em-color span.emColorStyle01 {
+  background: #87ab03;
+}
+.em-color span.emColorStyle02 {
+  background: #f58e2f;
+}
+.em-color span.emColorStyle03 {
+  background: #dc0604;
+}
+.em-color span.emColorStyle04 {
+  background: #9d0059;
+}
