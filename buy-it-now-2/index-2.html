@@ -43,7 +43,13 @@
 	============================================= -->
     <title>Ruparupa</title>
     <style>
+	
+	.feature-box.media-box.fbox-bg .fbox-desc{
+		display:none;
+	}
+	
 	span.caption-text {
+		display:none;
     position: absolute;
     top: 40%;
     text-align: center;
@@ -233,12 +239,15 @@ Footer Primaapriansyah
         </header>
         <!-- #header end -->
         
-        <section id="slider" class="slider-parallax" style="background: url('https://res.cloudinary.com/ruparupa-com/image/upload/v1478571789/top-banner_nl3ccn.jpg') no-repeat; background-size: cover; background-position:center" data-height-lg="450" data-height-md="450" data-height-sm="400" data-height-xs="300" data-height-xxs="250">
+        <section id="slider" class="slider-parallax visible-lg visible-md" style="background: url('https://res.cloudinary.com/ruparupa-com/image/upload/v1478571789/top-banner_nl3ccn.jpg') no-repeat; background-size: cover; background-position:center" data-height-lg="450" data-height-md="450" data-height-sm="400" data-height-xs="300" data-height-xxs="250">
 			<div class="container clearfix">
 				<div class="vertical-middle dark center">
 				</div>
 			</div>
 		</section>
+        
+        <img class="visible-xs visible-sm" src="https://res.cloudinary.com/ruparupa-com/image/upload/v1478571789/top-banner_nl3ccn.jpg"/>
+        
         
         <!-- Page Sub Menu
 		============================================= -->
@@ -250,12 +259,12 @@ Footer Primaapriansyah
                     <nav class="one-page-menu">
                         <ul>
                             <li>
-                                <a href="#" data-href="#section-ruparupa-week">
+                                <a href="#" data-href="#section-ruparupa-flash-sale">
                                     <div>Mulai</div>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" data-href="#section-ruparupa-week-active">
+                                <a href="#" data-href="#section-ruparupa-flash-sale-active">
                                     <div>Weekly Specials</div>
                                 </a>
                             </li>
@@ -297,7 +306,7 @@ Footer Primaapriansyah
                     1. FLASH SALE
                     ============================================= 
                      -->
-                    <div id="section-ruparupa-week">
+                    <div id="section-ruparupa-flash-sale">
                     </div>
                     <!-- DESKTOP FLASHSALE -->
                     <div class="visible-lg visible-md container">
@@ -331,7 +340,7 @@ Footer Primaapriansyah
                     2. WEEKLY SPECIALS
                     ============================================= 
                      -->
-                    <div id="section-ruparupa-week-active">
+                    <div id="section-ruparupa-flash-sale-active">
                     </div>
                     <!--DESKTOP WEEKLY -->
                     <div class="visible-lg visible-md">
@@ -340,8 +349,8 @@ Footer Primaapriansyah
                             <span>Dapatkan penawaran menarik dari Ruparupa tiap minggunya dari tanggal 9 November s.d 9 Desember</span>
                         </div>
                         <div class="col_one_fifth">
-                            <a href="#"  data-scrollto="#section-ruparupa-week-active" >
-                                <div class="feature-box center media-box fbox-bg">
+                            <a href="#"  data-scrollto="#section-ruparupa-flash-sale-active" >
+                                <div class="feature-box center media-box fbox-bg" data-animate="fadeIn">
                                     <div class="fbox-media"> <img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1478571797/week1_mqviot.jpg" alt="Image"> </div>
                                     <div class="fbox-desc">
                                         <h3><span class="subtitle">Special Week 1 </span></h3>
@@ -350,7 +359,7 @@ Footer Primaapriansyah
                             </a>
                         </div>
                         <div class="col_one_fifth">
-                                <div class="feature-box center media-box fbox-bg">
+                                <div class="feature-box center media-box fbox-bg" data-animate="fadeIn">
                                     <div class="fbox-media"> <img class="disallow" src="https://res.cloudinary.com/ruparupa-com/image/upload/v1478571797/week2_wvjayq.jpg" alt="Image">
                                     <span class="caption-text">Promo Belum Dimuali</span>
                                     </div>
@@ -360,7 +369,7 @@ Footer Primaapriansyah
                                 </div>
                         </div>
                         <div class="col_one_fifth">
-                                <div class="feature-box center media-box fbox-bg ">
+                                <div class="feature-box center media-box fbox-bg " data-animate="fadeIn">
                                     <div class="fbox-media"> <img class="disallow" src="https://res.cloudinary.com/ruparupa-com/image/upload/v1478571797/week3_migj8v.jpg" alt="Image"/>
                                     <span class="caption-text">Promo Belum Dimuali</span>
                                     </div>
@@ -370,7 +379,7 @@ Footer Primaapriansyah
                                 </div>
                         </div>
                         <div class="col_one_fifth">
-                                <div class="feature-box center media-box fbox-bg ">
+                                <div class="feature-box center media-box fbox-bg " data-animate="fadeIn">
                                     <div class="fbox-media"> <img class="disallow" src="https://res.cloudinary.com/ruparupa-com/image/upload/v1478571798/week4_o4hhdc.jpg" alt="Image"> 
                                     <span class="caption-text">Promo Belum Dimuali</span>
                                     </div>
@@ -529,6 +538,7 @@ Footer Primaapriansyah
                                 	<p class="center">
                                 	<a href="#" class="button button-3d button-xlarge button-rounded button-amber">Lihat Semua</a>
                                     </p>
+                                    <br><br>
                                 </div>
                             </div>
                         </div>
@@ -568,20 +578,26 @@ Footer Primaapriansyah
                         </div>
                     </div>
                     <div class="clear"></div>
-                    <div class="divider divider-short divider-center"><i class="icon-circle"></i> </div>
                 </div>
                  <!-- 
                 ============================================= 
                 Promo Lainya
                 ============================================= 
                  -->
-                <div class="container clearfix">
+                <div class="clearfix">
                     <!-- Special Active Week Desktop-->
                     <div id="section-ruparupa-promo-lainya" class="heading-block title-center page-section">
                         <h2>Promo Bank</h2>
+                        <span>Dapatkan penawaran menarik dari Ruparupa tiap minggunya dari tanggal 9 November s.d 9 Desember</span>
                     </div>
-                    <!-- Special Active Week Mobile -->
-                    <div class="">
+                    <div class="container visible-lg visible-md">
+                        <div class="col_full">
+                            <div class="feature-box center media-box fbox-bg" data-animate="fadeIn">
+                                <div class="fbox-media"> <img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1478571788/bca-banner_w8lxjq.jpg" alt="Image"> </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="container-fluid visible-xs visible-sm">
                         <div class="col_full">
                             <div class="feature-box center media-box fbox-bg" data-animate="fadeIn">
                                 <div class="fbox-media"> <img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1478571788/bca-banner_w8lxjq.jpg" alt="Image"> </div>
@@ -589,82 +605,80 @@ Footer Primaapriansyah
                         </div>
                     </div>
                     <div class="clear"></div>
-                    <!-- Special Active Week Mobile End-->
                 </div>
                 <!--T& C-->
-                <div class="container clearfix">
+                <div class=" container-fluid clearfix">
                 	<div id="section-ruparupa-tc" class="heading-block title-center page-section">
                         <h2>Terms & Condition</h2>
                     </div>
-                	<div class="col-md-12">
-                		<div class="panel-group" id="accordion">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Gratis Ongkir <i class=" pull-right fa fa-caret-down" aria-hidden="true"></i></a>
-                                    </h4>
-                                </div>
-                                <div id="collapseOne" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <ul>
-                                            <li>Berlaku untuk pengiriman wilayah Jabodetabek dengan minimum belanja Rp 300.000</li>
-                                            <li>Potongan Rp 30.000 berlaku untuk pengiriman di luar wilayah Jabodetabek dengan minimum belanja Rp 500.000</li>
-                                            <li>Tidak berlaku untuk pilihan pengiriman pick up in store (STOPS)</li>
-                                            <li>Promo berlaku hingga 12 Desember 2016</li>
-                                        </ul>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Gratis Ongkir <i class=" pull-right fa fa-caret-down" aria-hidden="true"></i></a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Berlaku untuk pengiriman wilayah Jabodetabek dengan minimum belanja Rp 300.000</li>
+                                                <li>Potongan Rp 30.000 berlaku untuk pengiriman di luar wilayah Jabodetabek dengan minimum belanja Rp 500.000</li>
+                                                <li>Tidak berlaku untuk pilihan pengiriman pick up in store (STOPS)</li>
+                                                <li>Promo berlaku hingga 12 Desember 2016</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
+                                <!-- /.panel -->
                             </div>
-                            <!-- /.panel -->
-                		</div>
-                	</div>
-                	<div class="clear"></div>
-                    <div class="col-md-12">
-                		<div class="panel-group" id="accordion">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Cicilan 0%<i class=" pull-right fa fa-caret-down" aria-hidden="true"></i></a>
-                                    </h4>
-                                </div>
-                                <div id="collapseOne" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <ul>
-                                            <li>Eksklusif untuk pengguna kartu kredit Mandiri, BNI, dan UOB.</li>
-                                            <li>Cicilan 0% selama 12 (dua belas) bulan dengan minimum belanja Rp 3.000.000</li>
-                                            <li>Cicilan 0% selama 6 (enam) bulan dengan minimum belanja Rp 1.000.000.</li>
-                                            <li>Cicilan 0% selama 3 (tiga) bulan dengan minimum belanja Rp 500.000.</li>
-                                        </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="panel-group" id="accordion2">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Cicilan 0%<i class=" pull-right fa fa-caret-down" aria-hidden="true"></i></a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Eksklusif untuk pengguna kartu kredit Mandiri, BNI, dan UOB.</li>
+                                                <li>Cicilan 0% selama 12 (dua belas) bulan dengan minimum belanja Rp 3.000.000</li>
+                                                <li>Cicilan 0% selama 6 (enam) bulan dengan minimum belanja Rp 1.000.000.</li>
+                                                <li>Cicilan 0% selama 3 (tiga) bulan dengan minimum belanja Rp 500.000.</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
+                                <!-- /.panel -->
                             </div>
-                            <!-- /.panel -->
-                		</div>
-                	</div>
-                	<div class="clear"></div>
-                    <div class="col-md-12">
-                		<div class="panel-group" id="accordion">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Cicilan 0 % <i class=" pull-right fa fa-caret-down" aria-hidden="true"></i></a>
-                                    </h4>
-                                </div>
-                                <div id="collapseOne" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <ul>
-                                            <li>Berlaku untuk pengiriman wilayah Jabodetabek dengan minimum belanja Rp 300.000</li>
-                                            <li>Potongan Rp 30.000 berlaku untuk pengiriman di luar wilayah Jabodetabek dengan minimum belanja Rp 500.000</li>
-                                            <li>Tidak berlaku untuk pilihan pengiriman pick up in store (STOPS)</li>
-                                            <li>Promo berlaku hingga 12 Desember 2016</li>
-                                        </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="panel-group" id="accordion3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">Gratis Voucher<i class=" pull-right fa fa-caret-down" aria-hidden="true"></i></a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Dapatkan voucher ACE Rp 50.000, Informa Rp 50.000, Toys Kingdom Rp 50.000, dan Chatime Rp 20.000</li>
+                                                <li>Promo ini hanya berlaku untuk 10 transaksi pertama dengan minimum belanja Rp 500.000 setiap harinya</li>
+                                                <li>voucher akan dikirimkan melalui email selambatnya 2 hari kerja setelah transaksi berhasil</li>
+                                                <li>voucher dapat digunakan di seluruh toko ACE atau Informa atau Toys Kingdom atau Chatime di Indonesia</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
+                                <!-- /.panel -->
                             </div>
-                            <!-- /.panel -->
-                		</div>
-                	</div>
-                	<div class="clear"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
