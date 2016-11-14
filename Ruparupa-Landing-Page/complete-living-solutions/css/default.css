@@ -1,0 +1,431 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:lighter;
+}
+/*==========================
+Navbar Primaapriansyah
+============================*/
+nav.navbar.navbar-default.affix {
+    z-index: 9;
+}
+nav.navbar.navbar-default.affix-top {
+    margin-bottom: 0px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.affix {
+    box-shadow: 0px 2px 14px -1px #ddd;
+}
+nav.navbar.navbar-default.affix {
+    display: block;
+}
+.affix {
+	top: 0;
+	width: 100%;
+}
+.affix + .container-fluid {
+	padding-top: 70px;
+}
+p.navbar-btn {
+    margin: 10px;
+}
+a.btn.btn-default.btn-block.daftar {
+    color: #fff;
+    background: #f06721;
+    font-weight: 600;
+    border: 1px solid #ffffff;
+	text-transform:uppercase;
+	letter-spacing:1.5px;
+}
+/*==========================
+Footer Primaapriansyah
+============================*/
+.col-half-offset{
+    margin-left:4.166666667%
+}
+p.text-muted {
+    color: #a7a9b0;
+    padding: 15px 0;
+	margin:0;
+	background:#fff;
+	font-size:11px;
+	text-align:center;
+}
+footer.footer {
+    border-top: 1px solid #d7d7d7;
+}
+.footer-ruparupa .nav>li>a {
+    font-size: 13px;
+    padding: 2px 0;
+    color: #52555f;
+}
+div ul.list-inline li{
+    float: left;
+    width: 55px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #f2f2f2;
+    padding: 3px;
+    margin: 0 5px 5px 0;
+}
+div ul.list-inline li img{
+	width:100%;
+}
+span.footer-subtitle {
+    text-transform: uppercase;
+    color: #3a3a3a;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-top: 0;
+}
+/*5 Column In Bootstrap V2*/
+  div.col-sm-7.five-three {
+    width: 60% !important;
+    }
+
+    div.col-sm-5.five-two {
+      width: 40% !important;
+    }
+/*Subscribe*/
+.container-fluid.subscribe {
+    background: #008ccf;
+    padding: 23px 0;
+    margin-bottom: 25px;
+}
+.subscribe div p {
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 12px 0 0;
+    padding: 0;
+    color: #fff;
+	line-height:30px;
+}
+.subscribe button.btn.btn-default {
+    background: #f36525;
+    border: #f36525;
+    color: #fff;
+}
+.subscribe .col-md-4 ul li a {
+    font: 20px/1 FontAwesome;
+    display: block;
+    background: #fff;
+    border-radius: 2px;
+    color: #000;
+    border-color: rgba(255, 255, 255, 0);
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    padding-top: 7px;
+    /* border: 2px solid #fff; */
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.connect-us i {
+    font-size: 15px;
+    vertical-align: middle;
+    color: #000;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    margin: 2px;
+}
+span.input-group-btn input#mc-embedded-subscribe {
+    background: #f36525;
+    border: #f36525;
+    color: #fff;
+}
+/**********************************
+Responsive navbar-brand image CSS
+- Remove navbar-brand padding for firefox bug workaround
+- add 100% height and width auto ... similar to how bootstrap img-responsive class works
+***********************************/
+
+.navbar-brand {
+  padding: 0px; 
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+/* EXAMPLE 2 (larger logo) - simply adjust top bottom padding to make logo larger */
+
+.navbar-brand.big-logo>img {
+  padding: 1px 15px;
+}
+/* CSS Transform Align Navbar Brand Text ... This could also be achieved with table / table-cells */
+.navbar-alignit .navbar-header {
+	  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 50px;
+}
+.navbar-alignit .navbar-brand {
+	top: 50%;
+	display: block;
+	position: relative;
+	height: auto;
+	-webkit-transform: translate(0,-50%);
+	        transform: translate(0,-50%);
+	margin-right: 15px;
+  margin-left: 15px;
+}
+.navbar-nav>li>.dropdown-menu {
+	z-index: 9999;
+}
+
+/*COLOR BOOTSTRAP NAVBAR START*/
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #cccccc;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #a1a1a1;
+}
+.navbar-default .navbar-text {
+  color: #cccccc;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #cccccc;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #a1a1a1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #cccccc;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #a1a1a1;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #a1a1a1;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #a1a1a1;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #a1a1a1;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #cccccc;
+}
+.navbar-default .navbar-link {
+  color: #cccccc;
+}
+.navbar-default .navbar-link:hover {
+  color: #a1a1a1;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #cccccc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #a1a1a1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #a1a1a1;
+    background-color: #ffffff;
+  }
+}
+/**********************************
+***********************************/
+.bg-ruparupa-sc {
+    background: #f7f8f3;
+}
+img.img-responsive.img-ruparupa-thumb {
+    /*max-width: 350px;*/
+    margin: 0 auto;
+	width:100%;
+}
+span.ruparupa-link {
+    color: #f36525;
+}
+h4.text-capitalize.text-center {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.text-center.col-md-8 h2 {
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 0 50px 50px 50px;
+    line-height: 1.3em;
+}
+h1.ruparupa-text {
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 0 50px 50px 50px;
+}
+p {
+    line-height: 2em;
+}
+.col-center{
+	float:none;
+	margin:0 auto;
+}
+span img {
+    margin-top: 30px;
+}
+
+@media only screen and (min-width : 1200px) {
+	.grid-product-section .container {
+		width: 970px;
+	}
+}
+/*==========================
+Footer Primaapriansyah
+============================*/
+.col-half-offset{
+    margin-left:4.166666667%
+}
+p.text-muted {
+    color: #a7a9b0;
+    padding: 15px 0;
+	margin:0;
+	background:#fff;
+	font-size:11px;
+	text-align:center;
+}
+footer.footer {
+    border-top: 1px solid #d7d7d7;
+}
+.footer-ruparupa .nav>li>a {
+    font-size: 13px;
+    padding: 2px 0;
+    color: #52555f;
+}
+div ul.list-inline li{
+    float: left;
+    width: 55px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #f2f2f2;
+    padding: 3px;
+    margin: 0 5px 5px 0;
+}
+div ul.list-inline li img{
+	width:100%;
+}
+span.footer-subtitle {
+    text-transform: uppercase;
+    color: #3a3a3a;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-top: 0;
+}
+/*5 Column In Bootstrap V2*/
+  div.col-sm-7.five-three {
+    width: 60% !important;
+    }
+
+    div.col-sm-5.five-two {
+      width: 40% !important;
+    }
+/*Subscribe*/
+.container-fluid.subscribe {
+    background: #008ccf;
+    padding: 23px 0;
+    margin-bottom: 25px;
+}
+.subscribe div p {
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 12px 0 0;
+    padding: 0;
+    color: #fff;
+	line-height:30px;
+}
+.subscribe button.btn.btn-default {
+    background: #f36525;
+    border: #f36525;
+    color: #fff;
+}
+.subscribe .col-md-4 ul li a {
+    font: 20px/1 FontAwesome;
+    display: block;
+    background: #fff;
+    border-radius: 2px;
+    color: #000;
+    border-color: rgba(255, 255, 255, 0);
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    padding-top: 7px;
+    /* border: 2px solid #fff; */
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.connect-us i {
+    font-size: 15px;
+    vertical-align: middle;
+    color: #000;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    margin: 2px;
+}
+span.input-group-btn input#mc-embedded-subscribe {
+    background: #f36525;
+    border: #f36525;
+    color: #fff;
+}

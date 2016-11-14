@@ -1,0 +1,25 @@
+
+.cd-single-point:nth-of-type(1) {
+    bottom: 36%;
+    left: 12%;
+}
+.cd-single-point:nth-of-type(2) {
+    bottom: 57%;
+    right: 10%;
+}
+.cd-single-point:nth-of-type(3) {
+    bottom: 9%;
+    left: 37%;
+}
+.cd-single-point:nth-of-type(4) {
+    top: 8%;
+    right: 42%;
+}
+.cd-single-point:nth-of-type(5) {
+    top: 70%;
+    right: 48%;
+}
+.cd-single-point:nth-of-type(6) {
+    top: 60%;
+    right: 48%;
+}

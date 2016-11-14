@@ -1,0 +1,202 @@
+body{
+	font-family:"Open Sans", sans-serif;
+}
+@media only screen and (min-width : 992px) {
+	.navbar-collapse.collapse {
+    margin-left: -30px;
+	}
+	
+}
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: rgba(255, 255, 255, 0);
+}
+/*.navbar {min-height: 30px;}*/
+.navbar-brand,
+.navbar-nav li a {
+    /*line-height: 30px;
+    height: 30px;*/
+    padding-top: 0;
+}
+ul.nav.navbar-nav{
+    padding: 10px 0;
+}
+ul.nav.navbar-nav li.active a {
+    color: #008ccf!important;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0);
+    vertical-align: middle;
+    font-size: 12px;
+	margin-right:15px;
+}
+.container {
+    max-width: 1033px;
+}
+span.bar-text {
+    display: inline-block;
+    margin-left: 5px;
+    color: #8C8C8C;
+    padding-top: 7px;
+    font-size: 12px;
+	margin-right:15px;
+}
+div h1.title {
+    color: #4c4c4c;
+    text-align: center;
+    margin: 40px 0 36px 0;
+    text-transform: uppercase;
+}
+.col-md-6.col-sm-6 a img.img-responsive {
+    margin: 0 0 36px 0;
+}
+.border-above-title {
+    border-bottom: 1px solid #4c4c4c;
+}
+
+@media only screen and (max-width : 800px) {
+	.col-md-4.cool-sm-12 img.hvr-shadow.img-responsive {
+    width: 100%;
+    margin-bottom: 30px;
+	}
+	.col-md-6.col-sm-6 a img.img-responsive {
+    margin: 0 0 25px 0;
+	}
+	li img {
+    margin-left: 15px;
+	}
+	ul.nav.navbar-nav li.active a {
+	margin-left: 15px;
+	}
+	img.hvr-shadow.img-responsive.hidden-xs.hidden-md.hidden-lg {
+    margin-bottom: 20px;
+	}
+	h1.title {
+    font-size: 20px;
+	font-weight:900;
+	}
+}
+/*Footer*/
+
+/*5 Column In Bootstrap V1*/
+.col-half-offset{
+    margin-left:4.166666667%
+}
+p.text-muted {
+    color: #a7a9b0;
+    padding: 15px 0;
+	margin:0;
+	background:#fff;
+	font-size:11px;
+}
+footer.footer {
+    border-top: 1px solid #d7d7d7;
+}
+.nav>li>a {
+    font-size: 13px;
+    padding: 2px 0;
+    color: #52555f;
+}
+div ul.list-inline li{
+    float: left;
+    width: 55px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #f2f2f2;
+    padding: 3px;
+    margin: 0 5px 5px 0;
+}
+div ul.list-inline li img{
+	width:100%;
+}
+span.footer-subtitle {
+    text-transform: uppercase;
+    color: #3a3a3a;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-top: 0;
+}
+/*5 Column In Bootstrap V2*/
+  div.col-sm-7.five-three {
+    width: 60% !important;
+    }
+
+    div.col-sm-5.five-two {
+      width: 40% !important;
+    }
+/*Subscribe*/
+.container-fluid.subscribe {
+    background: #008ccf;
+    padding: 23px 0;
+    margin-bottom: 25px;
+}
+.subscribe div p {
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 12px 0 0;
+    padding: 0;
+    color: #fff;
+	line-height:30px;
+}
+.subscribe button.btn.btn-default {
+    background: #f36525;
+    border: #f36525;
+    color: #fff;
+}
+.subscribe .col-md-4 ul li a {
+    font: 20px/1 FontAwesome;
+    display: block;
+    background: #fff;
+    border-radius: 2px;
+    color: #000;
+    border-color: rgba(255, 255, 255, 0);
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    padding-top: 7px;
+    /* border: 2px solid #fff; */
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.connect-us i {
+    font-size: 15px;
+    vertical-align: middle;
+    color: #000;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    margin: 2px;
+}/**/
+img.hvr-shadow.img-responsive {
+    width: 100%;
+}
+img.hvr-shadow.img-responsive.hidden-md.hidden-lg {
+    margin-bottom: 20px;
+}
+a.navbar-brand img {
+    width: 70%;
+    vertical-align: middle;
+    padding: 5px;
+}
+/*Footer Mobile*/
+#footer-top {
+    text-align: center;
+    padding: 0;
+    background: #fff;
+	color:#fff;
+}
+span.input-group-btn input#mc-embedded-subscribe {
+    background: #f36525;
+    border: #f36525;
+    color: #fff;
+}
