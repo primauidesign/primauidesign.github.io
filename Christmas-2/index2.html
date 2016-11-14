@@ -44,68 +44,6 @@
 	============================================= -->
     <title>Harbolnas 2016 - Buy It Now! | Ruparupa.com</title>
     <style>
-        /*===SALJU START====*/
-        
-        #snow {
-            font-family: Androgyne;
-            background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
-            height: 100%;
-            left: 0;
-            position: absolute;
-            top: 0;
-            width: 100%;
-            z-index: 1;
-            -webkit-animation: snow 10s linear infinite;
-            -moz-animation: snow 10s linear infinite;
-            -ms-animation: snow 10s linear infinite;
-            animation: snow 10s linear infinite;
-        }
-        @keyframes snow {
-            0% {
-                background-position: 0px 0px, 0px 0px, 0px 0px;
-            }
-            50% {
-                background-position: 500px 500px, 100px 200px, -100px 150px;
-            }
-            100% {
-                background-position: 500px 1000px, 200px 400px, -100px 300px;
-            }
-        }
-        @-moz-keyframes snow {
-            0% {
-                background-position: 0px 0px, 0px 0px, 0px 0px;
-            }
-            50% {
-                background-position: 500px 500px, 100px 200px, -100px 150px;
-            }
-            100% {
-                background-position: 400px 1000px, 200px 400px, 100px 300px;
-            }
-        }
-        @-webkit-keyframes snow {
-            0% {
-                background-position: 0px 0px, 0px 0px, 0px 0px;
-            }
-            50% {
-                background-position: 500px 500px, 100px 200px, -100px 150px;
-            }
-            100% {
-                background-position: 500px 1000px, 200px 400px, -100px 300px;
-            }
-        }
-        @-ms-keyframes snow {
-            0% {
-                background-position: 0px 0px, 0px 0px, 0px 0px;
-            }
-            50% {
-                background-position: 500px 500px, 100px 200px, -100px 150px;
-            }
-            100% {
-                background-position: 500px 1000px, 200px 400px, -100px 300px;
-            }
-        }
-        /*=======SALJU END======*/
-        
         .heading-block:after {
             content: '';
             display: inline;
@@ -142,13 +80,20 @@
 }
 	header#header div#header-wrap {
     display: none;
-}*/
-        
-        .disallow {
-            cursor: not-allowed;
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-        }
+}*/		
+.content-wrap{
+	position:relative;
+	padding:30px 0;
+}
+.heading-block {
+    margin-bottom: 20px;
+}
+@media (max-width: 767px){
+.postcontent, .postcontent.bothsidebar, .sidebar, .col_full, .col_half, .col_one_third, .col_two_third, .col_three_fourth, .col_one_fourth, .col_one_fifth, .col_two_fifth, .col_three_fifth, .col_four_fifth, .col_one_sixth, .col_five_sixth {
+	margin-bottom:30px !important;
+}
+}
+       
         /*==========================
 Footer Primaapriansyah
 ============================*/
@@ -394,7 +339,7 @@ Footer Primaapriansyah
                                 <div class="col_full">
                                     <div class="feature-box center media-box fbox-bg">
                                         <div class="fbox-media">
-                                            <a href="http://www.ruparupa.com/furniture.html?board+microsite=buy+it+now+gwp+furniture">
+                                            <a href="https://www.ruparupa.com/promotions/a-season-of-giving/gifts-for-him.html?board+microsite=a+season+of+giving+giftsforhim">
                                                 <img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1478747179/christmas-landing-page/landing-page_26.jpg" alt="Harbolnas 2016 - Buy It Now! | Ruparupa.com ~ Free Krisbow Set"> </a>
                                         </div>
                                     </div>
@@ -404,7 +349,7 @@ Footer Primaapriansyah
                                 <div class="col_full">
                                     <div class="feature-box center media-box fbox-bg">
                                         <div class="fbox-media">
-                                            <a href="http://www.ruparupa.com/dapur-minimalis.html?board+microsite=buy+it+now+gwp+dapur">
+                                            <a href="https://www.ruparupa.com/promotions/a-season-of-giving/gifts-for-her.html?board+microsite=a+season+of+giving+giftsforher">
                                                 <img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1478747179/christmas-landing-page/landing-page_23.jpg" alt="Harbolnas 2016 - Buy It Now! | Ruparupa.com ~ Free Zwiling">
                                             </a>
                                         </div>
@@ -471,7 +416,7 @@ Footer Primaapriansyah
                         </div>
                     </div>
                     <div class=" clearfix">
-                        <div id="oc-clients" class="owl-carousel owl-carousel-full image-carousel">
+                        <div id="oc-clients1" class="owl-carousel owl-carousel-full image-carousel">
                             <div class="oc-item">
                                 <a href="#"><img src="https://res.cloudinary.com/ruparupa-com/image/upload/c_scale,w_210/v1477085683/10076691_1.jpg" alt="Clients">
                                 </a>
@@ -517,9 +462,9 @@ Footer Primaapriansyah
                         <script type="text/javascript">
                             jQuery(document).ready(function($) {
 
-                                var ocClients = $("#oc-clients");
+                                var ocClients1 = $("#oc-clients1");
 
-                                ocClients.owlCarousel({
+                                ocClients1.owlCarousel({
                                     margin: 30,
                                     loop: true,
                                     nav: false,
@@ -583,6 +528,69 @@ Footer Primaapriansyah
                                         </a>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12">
+                            <div class="col_full">
+                                <div class="feature-box center media-box fbox-bg">
+                                    <div class="fbox-media">
+                                    	<img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1479117735/landing-page_62_t7eoru.jpg" alt="Harbolnas 2016 - Wisata Penuh Gaya Acehardware"> 
+                                    </div>
+                                </div>
+                                <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Ketentuan Free Wrapping Service <i class=" pull-right fa fa-caret-down" aria-hidden="true"></i></a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Berlaku untuk pengiriman wilayah Jabodetabek dengan minimum belanja Rp 300.000</li>
+                                                <li>Potongan Rp 30.000 berlaku untuk pengiriman di luar wilayah Jabodetabek dengan minimum belanja Rp 500.000</li>
+                                                <li>Tidak berlaku untuk pilihan pengiriman pick up in store (STOPS)</li>
+                                                <li>Promo berlaku hingga 12 Desember 2016</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.panel -->
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12">
+                            <div class="col_full">
+                                <div class="feature-box center media-box fbox-bg">
+                                    <div class="fbox-media">
+                                    	<img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1479117735/landing-page_62_t7eoru.jpg" alt="Harbolnas 2016 - Wisata Penuh Gaya Acehardware"> 
+                                    </div>
+                                </div>
+                               <div class="panel-group" id="accordion2">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Ketentuan Free Gift<i class=" pull-right fa fa-caret-down" aria-hidden="true"></i></a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Eksklusif untuk pengguna kartu kredit Mandiri, BNI, dan UOB.</li>
+                                                <li>Cicilan 0% selama 12 (dua belas) bulan dengan minimum belanja Rp 3.000.000</li>
+                                                <li>Cicilan 0% selama 6 (enam) bulan dengan minimum belanja Rp 1.000.000.</li>
+                                                <li>Cicilan 0% selama 3 (tiga) bulan dengan minimum belanja Rp 500.000.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.panel -->
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -651,7 +659,7 @@ Footer Primaapriansyah
                                 <div class="col_full">
                                     <div class="feature-box center media-box fbox-bg">
                                         <div class="fbox-media">
-                                            <a href="http://www.ruparupa.com/furniture.html?board+microsite=buy+it+now+gwp+furniture">
+                                            <a href="https://www.ruparupa.com/promotions/a-season-of-giving/gifts-for-him.html?board+microsite=a+season+of+giving+giftsforhim">
                                                 <img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1478747179/christmas-landing-page/landing-page_26.jpg" alt="Harbolnas 2016 - Buy It Now! | Ruparupa.com ~ Free Krisbow Set"> </a>
                                         </div>
                                     </div>
@@ -661,7 +669,7 @@ Footer Primaapriansyah
                                 <div class="col_full">
                                     <div class="feature-box center media-box fbox-bg">
                                         <div class="fbox-media">
-                                            <a href="http://www.ruparupa.com/dapur-minimalis.html?board+microsite=buy+it+now+gwp+dapur">
+                                            <a href="https://www.ruparupa.com/promotions/a-season-of-giving/gifts-for-her.html?board+microsite=a+season+of+giving+giftsforher">
                                                 <img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1478747179/christmas-landing-page/landing-page_23.jpg" alt="Harbolnas 2016 - Buy It Now! | Ruparupa.com ~ Free Zwiling">
                                             </a>
                                         </div>
@@ -672,7 +680,7 @@ Footer Primaapriansyah
                                 <div class="col_full">
                                     <div class="feature-box center media-box fbox-bg">
                                         <div class="fbox-media">
-                                            <a href="http://www.ruparupa.com/otomotif.html?board+microsite=buy+it+now+gwp+otomotif">
+                                            <a href="https://www.ruparupa.com/promotions/a-season-of-giving/gifts-for-kids.html?board+microsite=a+season+of+giving+giftsforkids">
                                                 <img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1478747180/christmas-landing-page/landing-page_29.jpg" alt="Harbolnas 2016 - Buy It Now! | Ruparupa.com ~ Free Caifornia Car">
                                             </a>
                                         </div>
@@ -717,8 +725,8 @@ Footer Primaapriansyah
                     <!-- ONLINE EXCLUSIVE DESKTOP END -->
                     <div class="clear"></div>
                     <!-- Special Active Week Desktop-->
-                    <div id="section-ruparupa-bca-partnership" class="heading-block title-center page-section" style=" background:url('https://res.cloudinary.com/ruparupa-com/image/upload/v1478747180/christmas-landing-page/landing-page_42.jpg') no-repeat left, url('https://res.cloudinary.com/ruparupa-com/image/upload/v1478747180/christmas-landing-page/landing-page_42.jpg') no-repeat right #e4dfe3; background-size:contain;">
-                        <h2 style="font-family: 'Cormorant Garamond', serif; text-transform: uppercase; color: #b73428; font-size: 34px; letter-spacing: -0.9px; font-weight: 100;">Joyful Christmas Collection</h2>
+                    <div id="section-ruparupa-bca-partnership" class="heading-block title-center page-section">
+                        <h2 style="font-family: 'Cormorant Garamond', serif; text-transform: uppercase; color: #b73428; font-size: 18px; font-weight: 100;">Joyful Christmas Collection</h2>
                     </div>
                     <div class="col_full">
                         <div class="feature-box center media-box fbox-bg">
@@ -805,8 +813,8 @@ Footer Primaapriansyah
                             });
                         </script>
                     </div>
-                    <div id="section-ruparupa-tc" class="heading-block title-center page-section" style=" background:url('https://res.cloudinary.com/ruparupa-com/image/upload/v1478747181/christmas-landing-page/landing-page_51.jpg') no-repeat left, url('https://res.cloudinary.com/ruparupa-com/image/upload/v1478747181/christmas-landing-page/landing-page_51.jpg') no-repeat right #e4dfe3; background-size:contain;">
-                        <h2 style="font-family: 'Cormorant Garamond', serif; text-transform: uppercase; color: #b73428; font-size: 34px; letter-spacing: -0.9px; font-weight: 100;">Christmas & Holiday Decorating Idea</h2>
+                    <div id="section-ruparupa-tc" class="heading-block title-center page-section">
+                        <h2 style="font-family: 'Cormorant Garamond', serif; text-transform: uppercase; color: #b73428; font-size: 18px; font-weight: 100;">Christmas & Holiday Decorating Idea</h2>
                     </div>
                     <!-- START PROMO LAINYA -->
                     <div class="row">
@@ -843,11 +851,74 @@ Footer Primaapriansyah
                             </div>
                         </div>
                     </div>
+                    <!-- -->
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12">
+                            <div class="col_full">
+                                <div class="feature-box center media-box fbox-bg">
+                                    <div class="fbox-media">
+                                    	<img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1479117735/landing-page_62_t7eoru.jpg" alt="Harbolnas 2016 - Wisata Penuh Gaya Acehardware"> 
+                                    </div>
+                                </div>
+                                <div class="panel-group" id="accordion4">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#collapseOne4">Ketentuan Free Wrapping Service <i class=" pull-right fa fa-caret-down" aria-hidden="true"></i></a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne4" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Berlaku untuk pengiriman wilayah Jabodetabek dengan minimum belanja Rp 300.000</li>
+                                                <li>Potongan Rp 30.000 berlaku untuk pengiriman di luar wilayah Jabodetabek dengan minimum belanja Rp 500.000</li>
+                                                <li>Tidak berlaku untuk pilihan pengiriman pick up in store (STOPS)</li>
+                                                <li>Promo berlaku hingga 12 Desember 2016</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.panel -->
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12">
+                            <div class="col_full">
+                                <div class="feature-box center media-box fbox-bg">
+                                    <div class="fbox-media">
+                                    	<img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1479117735/landing-page_62_t7eoru.jpg" alt="Harbolnas 2016 - Wisata Penuh Gaya Acehardware"> 
+                                    </div>
+                                </div>
+                               <div class="panel-group" id="accordion3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseTwo3">Ketentuan Free Gift<i class=" pull-right fa fa-caret-down" aria-hidden="true"></i></a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo3" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Eksklusif untuk pengguna kartu kredit Mandiri, BNI, dan UOB.</li>
+                                                <li>Cicilan 0% selama 12 (dua belas) bulan dengan minimum belanja Rp 3.000.000</li>
+                                                <li>Cicilan 0% selama 6 (enam) bulan dengan minimum belanja Rp 1.000.000.</li>
+                                                <li>Cicilan 0% selama 3 (tiga) bulan dengan minimum belanja Rp 500.000.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.panel -->
+                            </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- END -->
                 <div class="row">
                     <p class="center">
-                        <a href="https://www.ruparupa.com/promotions/buy-it-now/online-sale.html?board+microsite=buy+it+now+online+sale" class="button button-3d button-large button-rounded button-red">Beli Sekarang2!</a>
+                        <a href="https://www.ruparupa.com/promotions/buy-it-now/online-sale.html?board+microsite=buy+it+now+online+sale" class="button button-3d button-large button-rounded button-red">Beli Sekarang</a>
                     </p>
                 </div>
             </div>
