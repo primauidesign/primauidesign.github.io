@@ -82,7 +82,9 @@ header h1 {
   position: relative;
   margin: 0 auto;
   width: 100%;
-  max-width: 1200px;
+  /*max-width: 1200px;*/
+  max-width: 970px;
+  border:16px solid #fff;
 }
 .cd-product-wrapper > img {
   display: block;
@@ -466,10 +468,10 @@ button.btn.btn-info.selengkapnya-btn {
     border-radius: 5px;
 }
 button.btn.btn-danger {
-    background: #f4824e;
+    background: #f16728;
     border: 1px solid #f4824e;
 }button.btn.btn-info {
-    background: #dddddd;
+    background: #fff;
     border: 1px solid #f4824e;
     color: #f4824e;
 }
