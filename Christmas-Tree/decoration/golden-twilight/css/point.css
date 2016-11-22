@@ -1,0 +1,32 @@
+.cd-single-point:nth-of-type(1) {
+    bottom: 28%;
+    right: 37%;
+}
+.cd-single-point:nth-of-type(2) {
+  bottom: 15%;
+  right: 50%;
+}
+.cd-single-point:nth-of-type(4) {
+    top: 20%;
+    right: 20%;
+}
+.cd-single-point:nth-of-type(5) {
+    top: 11%;
+    left: 50%;
+}
+.cd-single-point:nth-of-type(6) {
+    top: 60%;
+    right: 20%;
+}
+.cd-single-point:nth-of-type(7) {
+    top: 50%;
+    right: 13%;
+}
+.cd-single-point:nth-of-type(3) {
+    top: 35%;
+    left: 48%;
+}
+.cd-single-point:nth-of-type(8) {
+    bottom: 30%;
+    left: 31%;
+}
