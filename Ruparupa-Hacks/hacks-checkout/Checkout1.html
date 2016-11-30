@@ -3317,106 +3317,62 @@ jQuery(document).ready(function(){
         <div class="discount-form">
             <div class="clearfix">
             	<!-- PRIMAAPRIANSYAH RADIO BUTTON -->
-                <style>
-				.maxl{
-				  margin:15px 0;
-				}
-				.maxl .inline{
-				  display: inline-block;
-				}
-				.maxl .inline + .inline{
-				  margin-left:10px;
-				}
-				.maxl .radio{
-				  color:#999;
-				  font-size:15px;
-				  position:relative;
-				}
-				.maxl .radio span{
-				  position:relative;
-				   padding-left:20px;
-				}
-				.maxl .radio span:after{
-				  content:'';
-				  width:15px;
-				  height:15px;
-				  border:3px solid;
-				  position:absolute;
-				  left:0;
-				  top:1px;
-				  border-radius:100%;
-				  -ms-border-radius:100%;
-				  -moz-border-radius:100%;
-				  -webkit-border-radius:100%;
-				  box-sizing:border-box;
-				  -ms-box-sizing:border-box;
-				  -moz-box-sizing:border-box;
-				  -webkit-box-sizing:border-box;
-				}
-				.maxl .radio input[type="radio"]{
-				   cursor: pointer; 
-				  position:absolute;
-				  width:100%;
-				  height:100%;
-				  z-index: 1;
-				  opacity: 0;
-				  filter: alpha(opacity=0);
-				  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-				}
-				.maxl .radio input[type="radio"]:checked + span{
-				  color:#f36525;  
-				}
-				.maxl .radio input[type="radio"]:checked + span:before{
-					content:'';
-				  width:5px;
-				  height:5px;
-				  position:absolute;
-				  background:#f36525;
-				  left:5px;
-				  top:6px;
-				  border-radius:100%;
-				  -ms-border-radius:100%;
-				  -moz-border-radius:100%;
-				  -webkit-border-radius:100%;
-				}
-				.right.full-width {
-					width: 100% !important;
-				}
-				::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-				  color: #AEAEAE;
-				  font-size:12px;
-				}
-				::-moz-placeholder { /* Firefox 19+ */
-				  color: #AEAEAE;
-				}
-				:-ms-input-placeholder { /* IE 10+ */
-				  color: #AEAEAE;
-				}
-				:-moz-placeholder { /* Firefox 18- */
-				  color: #AEAEAE;
-				}
+                <style type="text/css">
+					.box{
+						display: none;
+						margin-top: 20px;
+					}
+					.red{ background: #ff0000; }
+					.green{ background: #00ff00; }
+					.blue{ background: #0000ff; }
+					.right.full-width{
+						width:100% !important;
+					}
 				</style>
-                <div>Anda memiliki kode voucher atau kupon diskon, masukan di kolom dibawah ini</div>
-                <div class="maxl">
-                  <label class="radio inline"> 
-                      <input type="radio" name="sex" value="male" checked>
-                      <span>Kupon Diskon </span> 
-                   </label>
-                  <label class="radio inline"> 
-                      <input type="radio" name="sex" value="female">
-                      <span>Kode Voucher </span> 
-                  </label>
+				<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+				<script type="text/javascript">
+				$(document).ready(function(){
+					$('input[type="radio"]').click(function(){
+						if($(this).attr("value")=="kodevoucherbox"){
+							$(".box").not(".kodevoucherbox").hide();
+							$(".kodevoucherbox").show();
+						}
+						if($(this).attr("value")=="kupondiskonbox"){
+							$(".box").not(".kupondiskonbox").hide();
+							$(".kupondiskonbox").show();
+						}
+					});
+				});
+				</script>
+                <div>Anda memiliki kode voucher maupun kupon diskon, silahkan pilih dan masukan di kolom dibawah ini</div>
+                <div style="margin-top:15px;">
+                    <label><input type="radio" name="colorRadio" value="kodevoucherbox"> Kode Voucher</label>
+                    <label><input type="radio" name="colorRadio" value="kupondiskonbox"> Kupon Diskon</label>
                 </div>
+                <div class="kodevoucherbox box">
+                  <div class="right full-width">
+                      <input type="hidden" name="remove" value="0">
+                      <div class="field-wrapper">
+                          <input placeholder="Contoh Kode Voucher: ODI43486" class="input-text required-entry" type="text"  name="coupon_code" value="">
+                          <div class="button-wrapper">
+                              <button type="button" title="Pakai" class="button2" onclick="discountForm.submit(false); return false;" value="Pakai"><span><span>Pakai</span></span></button>
+                          </div>
+                      </div>
+                   </div>
+                </div>
+                <div class="kupondiskonbox box">
+                	<div class="right full-width">
+                      <input type="hidden" name="remove" value="0">
+                      <div class="field-wrapper">
+                          <input placeholder="Contoh Kupon Diskon: ODI43486" class="input-text required-entry" type="text"  name="coupon_code" value="">
+                          <div class="button-wrapper">
+                              <button type="button" title="Pakai" class="button2" onclick="discountForm.submit(false); return false;" value="Pakai"><span><span>Pakai</span></span></button>
+                          </div>
+                      </div>
+                   </div>
+                </div>
+                <div class="blue box">You have selected <strong>blue radio button</strong> so i am here</div>
                 <!-- PRIMAAPRIANSYAH RADIO BUTTON END-->
-                <div class="right full-width">
-                    <input type="hidden" name="remove" id="remove-coupone" value="0">
-                    <div class="field-wrapper">
-                        <input placeholder="e.g ODI43486" class="input-text required-entry" type="text" id="coupon_code" name="coupon_code" value="">
-                        <div class="button-wrapper">
-                            <button type="button" title="Pakai" class="button2" onclick="discountForm.submit(false); return false;" value="Pakai" id="apply-coupon"><span><span>Pakai</span></span></button>
-                        </div>
-                    </div>
-                                    </div>
             </div>
         </div>
     </div>
