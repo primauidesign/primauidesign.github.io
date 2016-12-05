@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+19:36:39	87528/87528	---M--	200	added ('OK')	text/html	etag:%22155e8-521bc2112c600%22	http://inceptionsystem.us/themes/Material-News/index.html	C:/Users/user/Documents/primauidesign.github.io/portfolio/magazine/materila-news/inceptionsystem.us/themes/Material-News/index.html	(from )
+19:36:39	26/26	---MC-	200	added ('OK')	text/plain	date:Sat,%2003%20Dec%202016%2012:36:39%20GMT	http://inceptionsystem.us/robots.txt		(from )

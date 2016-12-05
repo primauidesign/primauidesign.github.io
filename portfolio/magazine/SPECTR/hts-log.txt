@@ -1,0 +1,26 @@
+HTTrack3.48-22+htsswf+htsjava launched on Sun, 04 Dec 2016 12:27:26 at http://spectr-html.weblionmedia.net/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://spectr-html.weblionmedia.net/index.html -O1 "C:\Users\user\Documents\primauidesign.github.io\portfolio\magazine\SPECTR" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:35:55	Warning: 	File not parsed, looks like binary: spectr-html.weblionmedia.net/fonts/fontawesome-webfont.woff2?v=4.4.0
+12:35:55	Warning: 	File not parsed, looks like binary: spectr-html.weblionmedia.net/fonts/fontawesome-webfont.ttf?v=4.4.0
+12:35:55	Warning: 	File not parsed, looks like binary: spectr-html.weblionmedia.net/fonts/fontello.ttf?18056628
+12:35:55	Warning: 	File not parsed, looks like binary: spectr-html.weblionmedia.net/fonts/poppins/poppins-v1-latin-300.woff2
+12:35:55	Warning: 	File not parsed, looks like binary: spectr-html.weblionmedia.net/fonts/poppins/poppins-v1-latin-300.ttf
+12:35:55	Warning: 	File not parsed, looks like binary: spectr-html.weblionmedia.net/fonts/poppins/poppins-v1-latin-regular.woff2
+12:35:55	Warning: 	File not parsed, looks like binary: spectr-html.weblionmedia.net/fonts/poppins/poppins-v1-latin-regular.ttf
+12:35:55	Warning: 	File not parsed, looks like binary: spectr-html.weblionmedia.net/fonts/poppins/poppins-v1-latin-500.woff2
+12:35:55	Warning: 	File not parsed, looks like binary: spectr-html.weblionmedia.net/fonts/poppins/poppins-v1-latin-500.ttf
+12:35:55	Warning: 	File not parsed, looks like binary: spectr-html.weblionmedia.net/fonts/poppins/poppins-v1-latin-600.woff2
+12:35:55	Warning: 	File not parsed, looks like binary: spectr-html.weblionmedia.net/fonts/poppins/poppins-v1-latin-600.ttf
+12:35:55	Warning: 	File not parsed, looks like binary: spectr-html.weblionmedia.net/fonts/poppins/poppins-v1-latin-700.woff2
+12:35:55	Warning: 	File not parsed, looks like binary: spectr-html.weblionmedia.net/fonts/poppins/poppins-v1-latin-700.ttf
+12:35:55	Warning: 	Retry after error -2 (Receive Time Out) at link https://s3.amazonaws.com/weblionmedia-spectr/img/285x224/3.jpg (from spectr-html.weblionmedia.net/home_style_five.html)
+12:35:56	Error: 	"Not Found" (404) at link spectr-html.weblionmedia.net/vendor/ajaxform/jquery.form.js (from spectr-html.weblionmedia.net/contact_page_style_2.html)
+
+HTTrack Website Copier/3.48-22 mirror complete in 8 minutes 32 seconds : 410 links scanned, 407 files written (21529040 bytes overall) [16927822 bytes received at 33062 bytes/sec], 5403983 bytes transferred using HTTP compression in 65 files, ratio 12%, 1.2 requests per connection
+(1 errors, 14 warnings, 0 messages)
