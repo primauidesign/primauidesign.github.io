@@ -1,0 +1,96 @@
+<style type="text/css">
+/* GENERAL */
+.board{cursor:pointer;position:fixed;width:100px;height:500px;background:url('https://res.cloudinary.com/ruparupa-com/image/upload/v1482463380/floating-banner-BU-12days-informa_sdtofn.jpg') no-repeat;top:159px;z-index:999;display:block}.zindex{z-index:999}.board-mobile{display:none}
+/*FLASH SALE
+.board{cursor:pointer;position:fixed;width:100px;height:450px;background:url('http://res.cloudinary.com/ruparupa-com/image/upload/v1482401630/informa-banner_gl1j64.gif') no-repeat;top:159px;z-index:999;display:block}.zindex{z-index:999}*/
+@media only screen and (max-width : 1024px) {
+            #floating-mobile { position:absolute; display:block; margin:auto!important; width:100%!important; padding: 0 15px; z-index:999!important; top:0!important; padding-top:3.5vh;}
+            .popup-container { width:85%;}
+            .floating-button {background:none; border:none; box-shadow:none; padding:0; margin:0; float:right!important;overflow:hidden; padding-top:85vh;}
+            .floating-button:hover, .floating-button:active, .floating-button:focus, .floating-button:visited  { background:none!important; border:none!important; box-shadow:none!important;}
+            .board { display:none; }
+            .close-button {width: 20px;height: auto;margin: 0;border-radius: 100%;background: #ffffff;color: #1082bd;float: right;text-align: center;padding: 0;margin-bottom:-10px;margin-right: -10px; font-weight:normal;}
+        }
+        @media only screen and (max-width : 1280px) {
+            #board_r { right: 0; }
+        }
+        @media only screen and (min-width : 1280px) {
+            #board_r { right: 3%; }
+        }
+        @media only screen and (min-width : 1366px) {
+            #board_r { right: 5%; }
+        }
+        @media only screen and (min-width : 1440px) {
+            #board_r { right: 5%; }
+        }
+        @media only screen and (min-width : 1680px) {
+            #board_r { right: 14%; }
+        }
+        @media only screen and (min-width : 1920px) {
+            #board_r { right: 18%; }
+        }
+</style>
+<!-- Floating Banner Desktop --><p>&nbsp;</p>
+<!-- FLASH SALE -->
+<!-- <div class="board" id="board_r" onclick="window.open('https://www.ruparupa.com/flashsale.html?utm_source=informa.co.id&amp;utm_medium=referral&amp;utm_content=floating+banner&amp;utm_campaign=flash+sale');return false;"><a href="#" id="close" onclick="document.getElementById('board_r').style.display = 'none';" style="color: #F36424;z-index: 999!important; float:right; background-color: #FFFFFF; width:18px; height:18px; border-radius: 40px; font-size:16px; text-align:center;">x</a></div> -->
+<!-- GENERAL -->
+<div class="board" id="board_r" onclick="window.open('https://www.ruparupa.com/promo-natal?utm_source=informa.co.id&utm_medium=referral&utm_content=floating+banner&utm_campaign=12+christmas+deals');return false;"><a href="#" id="close" onclick="document.getElementById('board_r').style.display = 'none';" style="color: #F36424;z-index: 999!important; float:right; background-color: #FFFFFF; width:18px; height:18px; border-radius: 40px; font-size:16px; text-align:center;">x</a></div>
+<!-- End Floating Banner Desktop -->
+<script src="https://www.ruparupa.com/media/static/floating_board/informa/jquery.easing.js"></script><script src="https://www.ruparupa.com/media/static/floating_board/informa/stickyfill.min.js"></script><script src="https://img.ruparupa.com/media/static/floating_board/informa/sticky-kit.min.js"></script><script type="text/javascript">
+-->
+var $board = $('.board'), $window = $(window);
+  var $topDefault = parseFloat( $board.css('top'), 10 );
+  $window.on('scroll', function() {
+    var $top = $(this).scrollTop();
+    $board.stop().animate( { top: $top + $topDefault }, 800, 'easeOutCirc' );
+  });
+
+  var $wiBoard = $board.outerWidth() * 2;
+  function zindex(maxWidth){
+    if( $window.width() <= maxWidth + $wiBoard ) {
+      $board.addClass('zindex');
+    } else {
+      $board.removeClass('zindex');
+    }
+  }
+});
+</script>
+<!--(LINK: https://www.ruparupa.com/flashsale.html?utm_source=informa.co.id&amp;utm_medium=referral&amp;utm_content=floating+banner&amp;utm_campaign=flash+sale) (IMAGE: ) -->
+<!-- GENERAL -->
+ <div class="informa-mobile-floating-banner" id="banner-flash" style="margin:auto;position: fixed;width: 100%;bottom:0px;z-index: 999;"><a href="#" id="close" onclick="document.getElementById('banner-flash').style.display = 'none';" style="color: #F36424;font-weight: bold;z-index: 999 !important; float:right;">(X) Close</a><p class="text-center" style="margin-bottom:0px;"><a href="https://www.ruparupa.com/promo-natal?utm_source=informa.co.id&utm_medium=referral&utm_content=floating+banner&utm_campaign=12+christmas+deals" target="_blank"><img class="visible-xs img-responsive" src="https://res.cloudinary.com/ruparupa-com/image/upload/v1482463380/floating-banner-BU-12days-informa-mobile_ck18jp.jpg" style="width:100%;" /> </a></p></div>
+<!-- Flash SALE -->
+<!-- <div class="informa-mobile-floating-banner" id="banner-flash" style="margin:auto;position: fixed;width: 100%;bottom:0px;z-index: 999;"><a href="#" id="close" onclick="document.getElementById('banner-flash').style.display = 'none';" style="color: #F36424;font-weight: bold;z-index: 999 !important; float:right;">(X) Close</a><p class="text-center" style="margin-bottom:0px;"><a href="https://www.ruparupa.com/flashsale.html?utm_source=informa.co.id&amp;utm_medium=referral&amp;utm_content=floating+banner&amp;utm_campaign=flash+sale" target="_blank"><img class="visible-xs img-responsive" src="https://res.cloudinary.com/ruparupa-com/image/upload/v1482401634/informa-mobile_qbdmoy.gif" style="width:100%;" /> </a></p></div>
+-->
+<style type="text/css">
+.informa-mobile-floating-banner{
+			display:none}
+  /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+		.informa-mobile-floating-banner{
+			display:none}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+		.informa-mobile-floating-banner{
+			display:none}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		.informa-mobile-floating-banner{
+			display:none}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+		.informa-mobile-floating-banner{
+			display:block}
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+       .informa-mobile-floating-banner{
+			display:block} 
+    }</style>
+<p>&nbsp;</p>
