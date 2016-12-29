@@ -1,0 +1,19 @@
+/* Needed for Scoll Event Changes 
+ *******************************************/
+.navbar {
+  transition-duration: 0.2s;
+}
+
+@media (min-width: 0px) {
+  .navbar-scroll-custom {
+    transform: translateY(-52px);
+    transition-duration: 0.6s;
+  }
+}
+
+/* From Bootstrap Examples!! 
+ *******************************************/
+body {
+  padding-top: 50px;
+  height: 2000px;
+}
