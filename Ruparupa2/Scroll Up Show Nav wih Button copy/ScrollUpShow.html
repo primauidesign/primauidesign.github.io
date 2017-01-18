@@ -3,23 +3,24 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Bootstrap Navbar Hide on Scroll Down, Show on Scroll Up For Mobiles</title>
+    <title>Ruparupa 2.0</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <style>
-		nav.navbar.navbar-default.navbar-fixed-top button.btn.btn-default.navbar-btn.register-button {
-			margin-right: 15px;
-		}
-		nav.navbar.navbar-default.navbar-fixed-top button.btn.btn-default.navbar-btn.signin-button {
-			margin-right: 10px;
-		}
+        nav.navbar.navbar-default.navbar-fixed-top button.btn.btn-default.navbar-btn.register-button {
+            margin-right: 15px;
+        }
+        nav.navbar.navbar-default.navbar-fixed-top button.btn.btn-default.navbar-btn.signin-button {
+            margin-right: 10px;
+        }
     </style>
 </head>
 
 <body>
+  <div style="margin-top: 0px;"><a href="#"><img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1480063026/artboard/stripe-banner.jpg" style="width:100%"></a></div>
     <!-- 1. Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -38,37 +39,58 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kategori <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Rumah Tangga</a></li>
-                            <li><a href="#">Dapur Minimalis</a></li>
-                            <li><a href="#">Bath & Bed</a></li>
-                            <li><a href="#">Home Improvement</a></li>
-                            <li><a href="#">Furniture</a></li>
-                            <li><a href="#">Otomotif</a></li>
-                            <li><a href="#">Hobi & Gaya Hidup</a></li>
-                            <li><a href="#">Rumah Tangga</a></li>
-                            <li><a href="#">Dapur Minimalis</a></li>
-                            <li><a href="#">Bath & Bed</a></li>
-                            <li><a href="#">Hobi & Gaya Hidup</a></li>
-                            <li><a href="#">Rumah Tangga</a></li>
-                            <li><a href="#">Dapur Minimalis</a></li>
-                            <li><a href="#">Home Improvement</a></li>
+                            <li><a href="#">Rumah Tangga</a>
+                            </li>
+                            <li><a href="#">Dapur Minimalis</a>
+                            </li>
+                            <li><a href="#">Bath & Bed</a>
+                            </li>
+                            <li><a href="#">Home Improvement</a>
+                            </li>
+                            <li><a href="#">Furniture</a>
+                            </li>
+                            <li><a href="#">Otomotif</a>
+                            </li>
+                            <li><a href="#">Hobi & Gaya Hidup</a>
+                            </li>
+                            <li><a href="#">Rumah Tangga</a>
+                            </li>
+                            <li><a href="#">Dapur Minimalis</a>
+                            </li>
+                            <li><a href="#">Bath & Bed</a>
+                            </li>
+                            <li><a href="#">Hobi & Gaya Hidup</a>
+                            </li>
+                            <li><a href="#">Rumah Tangga</a>
+                            </li>
+                            <li><a href="#">Dapur Minimalis</a>
+                            </li>
+                            <li><a href="#">Home Improvement</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../navbar/">Default</a></li>
+                    <li><a href="../navbar/">Collection</a>
+                    </li>
+                    <li><a href="../navbar/">Inspiration</a>
+                    </li>
+                    <li><a href="../navbar/">Bantuan</a>
+                    </li>
+                    <li><a href="../navbar/">Flash Sale</a>
+                    </li>
+
+                    <!-- <li>
+          						<p class="navbar-btn">
+          							<a href="#" class="btn btn-default">Cart</a>
+          						</p>
+          					</li>-->
                     <li>
-						<p class="navbar-btn">
-							<a href="#" class="btn btn-default">I'm a link button!</a>
-						</p>
-					</li>
-                  	<li><a href="../navbar/">Masuk</a></li>
-                  	<li>
-						<button class="btn btn-default navbar-btn signin-button" type="button">Masuk</button>
-					</li>
-                   	<li>
-						<button class="btn btn-default navbar-btn register-button" type="button">Daftar</button>
-					</li>
+                        <button class="btn btn-default navbar-btn signin-button" type="button">Cart</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-default navbar-btn register-button" type="button">Masuk / Daftar</button>
+                    </li>
                     <!-- <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a>
                     </li> -->
                 </ul>
@@ -86,103 +108,102 @@
     </nav>
     <!-- 2. Slider Banner -->
     <div class="container-fluid">
-       	<div class="row">
-       		<div class="col-md-2">
-       			
-			</div>
-			<div class="col-md-10">
-				<div class="banner-slider">
-					<!-- Swiper -->
-					<div class="swiper-container main-slider-banner">
-						<div class="swiper-wrapper">
-							<div class="swiper-slide">
-								<img class="img-responsive" src="img/Banner-Slider1.jpg"/>
-							</div>
-							<div class="swiper-slide">
-								<img class="img-responsive" src="img/Banner-Slider2.jpg"/>
-							</div>
-							<div class="swiper-slide">
-								<img class="img-responsive" src="img/Banner-Slider3.jpg"/>
-							</div>
-						</div>
-						<!-- Add Pagination -->
-						<div class="swiper-pagination"></div>
-						<!-- Add Arrows -->
-						<div class="swiper-button-next"></div>
-						<div class="swiper-button-prev"></div>
-					</div>
-				</div>
-				<br>
-				<div class="swiper-container inspiration-slider">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<img class="img-responsive img-rounded " src="https://res.cloudinary.com/ruparupa-com/image/upload/v1482400105/inspirations/clean-it-up/home.jpg">
-						</div>
-						<div class="swiper-slide">
-							<img class="img-responsive img-rounded " src="https://res.cloudinary.com/ruparupa-com/image/upload/v1482113263/inspirations/party-at-home/home.jpg">
-						</div>
-						<div class="swiper-slide">
-							<img class="img-responsive img-rounded " src="https://res.cloudinary.com/ruparupa-com/image/upload/v1481191074/perfect-gift-ideas_home_iiumu3.jpg">
-						</div>
-						<div class="swiper-slide">
-							<img class="img-responsive img-rounded " src="https://res.cloudinary.com/ruparupa-com/image/upload/v1480590482/inspirations/vacation-checklist_home-banner.jpg">
-						</div>
-						<div class="swiper-slide">
-							<img class="img-responsive img-rounded " src="https://res.cloudinary.com/ruparupa-com/image/upload/v1478239375/inspirations_create-your-dream-office_home-banner_unbxrx.jpg">
-						</div>
-						<div class="swiper-slide">
-							<img class="img-responsive img-rounded " src="https://res.cloudinary.com/ruparupa-com/image/upload/v1477648923/home-inspirations-yourlaundryassistants_f99yo1.jpg">
-						</div>
-					</div>
-					<!-- Add Pagination -->
-					<div class="swiper-pagination swiper-pagination2"></div>
-				</div>
-			</div>
-		</div>
-	</div>
+        <div class="row">
+            <!-- <div class="col-md-2">
+            </div>-->
+            <div>
+                <div class="banner-slider">
+                    <!-- Swiper -->
+                    <div class="swiper-container main-slider-banner">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="img-responsive" src="img/Banner-Slider1.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-responsive" src="img/Banner-Slider2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-responsive" src="img/Banner-Slider3.jpg" />
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <br>
+                <div class="swiper-container inspiration-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/inspirations_create-your-dream-office_bannerpage.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/perfect-gift-ideas_page-banner.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/banner-page-1022x350_5.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/inspirations_your-laundry-assistants_bannerpage.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/cleanitup_banner-page.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/inspirations_home-electronics_banner-page.jpg">
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination swiper-pagination2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/index.js"></script>
-    
+
     <script>
-    var swiper = new Swiper('.main-slider-banner', {
-        pagination: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        paginationClickable: true,
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: 2500,
-        autoplayDisableOnInteraction: false
-    });
-	var swiper2 = new Swiper('.inspiration-slider', {
-        pagination: '.swiper-pagination2',
-        slidesPerView: 5.5,
-        paginationClickable: true,
-        spaceBetween: 16,
-        freeMode: true,
-		breakpoints: {
-            1024: {
-                slidesPerView: 5.5,
-                spaceBetween: 16
-            },
-            768: {
-                slidesPerView: 4.5,
-                spaceBetween: 16
-            },
-            640: {
-                slidesPerView: 2.5,
-                spaceBetween: 10
-            },
-            320: {
-                slidesPerView: 2.5,
-                spaceBetween: 5
+        var swiper = new Swiper('.main-slider-banner', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            paginationClickable: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: 2500,
+            autoplayDisableOnInteraction: false
+        });
+        var swiper2 = new Swiper('.inspiration-slider', {
+            pagination: '.swiper-pagination2',
+            slidesPerView: 2.5,
+            paginationClickable: true,
+            spaceBetween: 16,
+            freeMode: true,
+            breakpoints: {
+                1024: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 16
+                },
+                768: {
+                    slidesPerView: 4.5,
+                    spaceBetween: 16
+                },
+                640: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 10
+                },
+                320: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 5
+                }
             }
-        }
-    });
+        });
     </script>
 
 </body>
