@@ -1,0 +1,295 @@
+body {
+	font-family: 'Open Sans', sans-serif !important;
+  min-height: 2000px;
+  padding-top: 70px;
+}
+.nounderline:hover{text-decoration: none}
+.nav>li>a{
+	padding: 10px 10px;
+}
+
+/*=========
+1. Primaapriansyah Login
+==========*/
+.navbar-fixed-top {
+			top: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	-webkit-box-shadow: 1px 17px 64px -4px rgba(0,0,0,0.56);
+-moz-box-shadow: 1px 17px 64px -4px rgba(0,0,0,0.56);
+box-shadow: 1px 17px 64px -4px rgba(0,0,0,0.56);
+}
+#submenu-prima {
+		 top: 0;
+		 position: fixed;
+		 background-color: #0033cc;
+		 height: 50px;
+		 width: 100%;
+		 font-size: 12px;
+	padding: 3px 0;
+	z-index: 101;
+}
+.socmed.pull-right a {
+    color: #0033cc;
+}
+i.fa.fa-circle.fa-stack-2x {
+    color: white;
+}
+span.submenu-text {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/*==========
+2. Primaapriansyah Custom Color Navbar
+==========*/
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #1a3576;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #0033cc;
+}
+.navbar-default .navbar-text {
+  color: #1a3576;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #1a3576;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #0033cc;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #1a3576;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #0033cc;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #0033cc;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #0033cc;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #0033cc;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #1a3576;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #1a3576;
+}
+.navbar-default .navbar-link {
+  color: #1a3576;
+}
+.navbar-default .navbar-link:hover {
+  color: #0033cc;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #1a3576;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #0033cc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #0033cc;
+    background-color: #ffffff;
+  }
+}
+/*===========
+3. Primaapriansyah Logo Resize
+============*/
+/* added to  .nav */
+.normal {
+xheight: 75px; /* this causes drop down to lose color ??? */
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-ms-transition: 0.5s;
+transition: 0.5s;
+}
+
+.normal .navbar-right {
+padding-top: 5px;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-ms-transition: 0.5s;
+transition: 0.5s;
+}
+.navbar-brand {
+padding: 0px !important;
+}
+.navbar-brand img {
+/*padding: 5px;
+max-height: 75px;*/
+max-height: 75px;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-ms-transition: 0.5s;
+transition: 0.5s;
+}
+.shrink {
+height: 50px;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-ms-transition: 0.5s;
+transition: 0.5s;
+}
+.shrink .navbar-right {
+padding-top: 5px;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-ms-transition: 0.5s;
+transition: 0.5s;
+}
+.shrink .navbar-brand img {
+max-height: 50px;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-ms-transition: 0.5s;
+transition: 0.5s;
+}
+.normal .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.normal span.logo-name {
+    margin-left: 10px;
+}
+/*=============
+4. Berita Terkini
+===============*/
+h2.title-section-persib span {
+    color: #0032c6;
+    font-weight: 700;
+}
+h2.title-section-persib {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+.nav-tabs>li.active>a {
+     color: #060506 !important;
+    font-weight: 600 !important;
+    border-bottom: 3px solid #0032c9 !important;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+	text-transform:uppercase !important;
+}
+.nav-tabs>li.active>a:hover {
+    color: #060506 !important;
+    font-weight: 600 !important;
+    border-bottom: 3px solid #0032c9 !important;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+	text-transform:uppercase !important;
+}
+.nav-tabs>li.active>a:visited {
+     color: #060506 !important;
+    font-weight: 600 !important;
+    border-bottom: 3px solid #0032c9 !important;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+	text-transform:uppercase !important;
+}
+.nav-tabs>li.active>a:active {
+     color: #060506 !important;
+    font-weight: 600 !important;
+    border-bottom: 3px solid #0032c9 !important;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+	text-transform:uppercase !important;
+}
+.nav-tabs>li>a {
+    color: #a2a2a2;
+}
+.kotak {
+  display: inline-block;
+  padding: 0px;
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  position:relative;
+}
+.kotak h3 {
+    font-size: 15px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+    border-bottom: 1px solid #fff;
+}
+[class^=imghvr-fade]:hover>img{opacity:0.7 !important}
+.kotak h3 {
+    font-weight: 600;
+}
+.caption-first {
+    position: absolute;
+    border-bottom: 1px solid #ddd;
+    bottom:0px;
+    padding: 0 0px 0px 5px;
+    background: #fff;
+}
+.caption-tag {
+    position: absolute;
+    top:3px;
+	left:3px;
+	background:#0032c6;
+	z-index:9;
+	border-radius: 5px;
+}
+.caption-tag p {
+	padding:5px;
+	margin:0;
+	color:#fff;
+	font-size:10px;
+}
+.caption-first h3 {
+    padding: 0;
+    margin: 0;
+	color:#000;
+}
+.imghvr-fade:hover + div.caption-first {
+    display: none !important;
+}
