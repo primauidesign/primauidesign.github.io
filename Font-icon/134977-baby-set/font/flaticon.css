@@ -1,0 +1,81 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:37
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-abacus:before { content: "\f100"; }
+.flaticon-baby:before { content: "\f101"; }
+.flaticon-baby-1:before { content: "\f102"; }
+.flaticon-ball:before { content: "\f103"; }
+.flaticon-bath:before { content: "\f104"; }
+.flaticon-bib:before { content: "\f105"; }
+.flaticon-bodysuit:before { content: "\f106"; }
+.flaticon-bodysuit-1:before { content: "\f107"; }
+.flaticon-book:before { content: "\f108"; }
+.flaticon-building:before { content: "\f109"; }
+.flaticon-car:before { content: "\f10a"; }
+.flaticon-chair:before { content: "\f10b"; }
+.flaticon-cot:before { content: "\f10c"; }
+.flaticon-cot-1:before { content: "\f10d"; }
+.flaticon-crib:before { content: "\f10e"; }
+.flaticon-cubes:before { content: "\f10f"; }
+.flaticon-diaper:before { content: "\f110"; }
+.flaticon-duckling:before { content: "\f111"; }
+.flaticon-feeder:before { content: "\f112"; }
+.flaticon-feeder-1:before { content: "\f113"; }
+.flaticon-feeder-2:before { content: "\f114"; }
+.flaticon-feeder-3:before { content: "\f115"; }
+.flaticon-feeding:before { content: "\f116"; }
+.flaticon-feeding-1:before { content: "\f117"; }
+.flaticon-feeding-2:before { content: "\f118"; }
+.flaticon-food:before { content: "\f119"; }
+.flaticon-game:before { content: "\f11a"; }
+.flaticon-hat:before { content: "\f11b"; }
+.flaticon-pacifier:before { content: "\f11c"; }
+.flaticon-pacifier-1:before { content: "\f11d"; }
+.flaticon-pacifier-2:before { content: "\f11e"; }
+.flaticon-pregnant:before { content: "\f11f"; }
+.flaticon-rattle:before { content: "\f120"; }
+.flaticon-rattle-1:before { content: "\f121"; }
+.flaticon-rattle-2:before { content: "\f122"; }
+.flaticon-rattle-3:before { content: "\f123"; }
+.flaticon-robot:before { content: "\f124"; }
+.flaticon-safety-pin:before { content: "\f125"; }
+.flaticon-safety-pin-1:before { content: "\f126"; }
+.flaticon-safety-pin-2:before { content: "\f127"; }
+.flaticon-safety-pin-3:before { content: "\f128"; }
+.flaticon-stroller:before { content: "\f129"; }
+.flaticon-stroller-1:before { content: "\f12a"; }
+.flaticon-stroller-2:before { content: "\f12b"; }
+.flaticon-teddy-bear:before { content: "\f12c"; }
+.flaticon-toy:before { content: "\f12d"; }
+.flaticon-toy-1:before { content: "\f12e"; }
+.flaticon-toys:before { content: "\f12f"; }
+.flaticon-tricycle:before { content: "\f130"; }
+.flaticon-wind:before { content: "\f131"; }

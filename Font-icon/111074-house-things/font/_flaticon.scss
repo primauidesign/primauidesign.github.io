@@ -1,0 +1,643 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:07
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-antique-clock:before { content: "\f100"; }
+.flaticon-armchair-with-wheels-of-studio-furniture:before { content: "\f101"; }
+.flaticon-audio-equipment:before { content: "\f102"; }
+.flaticon-baby-crib-bedroom-furniture:before { content: "\f103"; }
+.flaticon-bathroom-black-bottle-container-with-spray-system:before { content: "\f104"; }
+.flaticon-bathroom-bottle:before { content: "\f105"; }
+.flaticon-bathroom-bottle-container-of-rounded-rectangular-black-shape:before { content: "\f106"; }
+.flaticon-bathroom-brush:before { content: "\f107"; }
+.flaticon-bathroom-brush-cleaning-tool:before { content: "\f108"; }
+.flaticon-bathroom-closet-with-personal-care-objects:before { content: "\f109"; }
+.flaticon-bathroom-detail:before { content: "\f10a"; }
+.flaticon-bathroom-drainage-of-circular-shape:before { content: "\f10b"; }
+.flaticon-bathroom-faucet:before { content: "\f10c"; }
+.flaticon-bathroom-faucet-tool:before { content: "\f10d"; }
+.flaticon-bathroom-first-aid-kit-box:before { content: "\f10e"; }
+.flaticon-bathroom-furniture:before { content: "\f10f"; }
+.flaticon-bathroom-furniture-1:before { content: "\f110"; }
+.flaticon-bathroom-hanging-towel:before { content: "\f111"; }
+.flaticon-bathroom-organization-furniture:before { content: "\f112"; }
+.flaticon-bathroom-paper-roll:before { content: "\f113"; }
+.flaticon-bathroom-spray-bottle:before { content: "\f114"; }
+.flaticon-bathroom-tap-silhouette:before { content: "\f115"; }
+.flaticon-bathroom-tap-tool-to-control-water-supply:before { content: "\f116"; }
+.flaticon-bathroom-toothpaste-tube:before { content: "\f117"; }
+.flaticon-bathroom-towel:before { content: "\f118"; }
+.flaticon-bathroom-trash-container:before { content: "\f119"; }
+.flaticon-bathtub-with-opened-shower:before { content: "\f11a"; }
+.flaticon-bed-design-with-three-drawers:before { content: "\f11b"; }
+.flaticon-bed-room-mirror-on-a-drawer-furniture:before { content: "\f11c"; }
+.flaticon-bed-side-view:before { content: "\f11d"; }
+.flaticon-bedroom-black-closed-closet-for-clothes:before { content: "\f11e"; }
+.flaticon-bedroom-circular-alarm-clock-tool:before { content: "\f11f"; }
+.flaticon-bedroom-closet-with-opened-door-of-the-side-to-hang-clothes:before { content: "\f120"; }
+.flaticon-bedroom-drawer-furniture:before { content: "\f121"; }
+.flaticon-bedroom-drawer-furniture-with-tv-monitor:before { content: "\f122"; }
+.flaticon-bedroom-drawers-furniture:before { content: "\f123"; }
+.flaticon-bedroom-furniture:before { content: "\f124"; }
+.flaticon-bedroom-furniture-equipment:before { content: "\f125"; }
+.flaticon-bedroom-furniture-small-table-for-bed-side:before { content: "\f126"; }
+.flaticon-bedroom-hanger-for-clothes:before { content: "\f127"; }
+.flaticon-bedroom-library-of-wheels-with-books:before { content: "\f128"; }
+.flaticon-bedroom-mirror:before { content: "\f129"; }
+.flaticon-bedroom-mirror-on-drawers-with-a-seat:before { content: "\f12a"; }
+.flaticon-bedroom-rack-furniture-to-hang-things:before { content: "\f12b"; }
+.flaticon-bedroom-stairs-tool:before { content: "\f12c"; }
+.flaticon-bedroom-wardrobe:before { content: "\f12d"; }
+.flaticon-big-luxury-door-entrance-architectural-detail:before { content: "\f12e"; }
+.flaticon-black-bed:before { content: "\f12f"; }
+.flaticon-black-box-for-storage:before { content: "\f130"; }
+.flaticon-black-box-for-storage-and-organization-of-things:before { content: "\f131"; }
+.flaticon-black-door:before { content: "\f132"; }
+.flaticon-black-door-1:before { content: "\f133"; }
+.flaticon-black-sofa-of-livingroom:before { content: "\f134"; }
+.flaticon-bottle-opener-tool-for-kitchen:before { content: "\f135"; }
+.flaticon-box-organization-tool:before { content: "\f136"; }
+.flaticon-bricks-wall-with-grass-leaves-border:before { content: "\f137"; }
+.flaticon-bubbles-bath-bathtub:before { content: "\f138"; }
+.flaticon-building:before { content: "\f139"; }
+.flaticon-bunk-bedroom-furniture:before { content: "\f13a"; }
+.flaticon-candle-and-candelabrum-silhouette:before { content: "\f13b"; }
+.flaticon-chair-with-wheels-of-studio-furniture:before { content: "\f13c"; }
+.flaticon-children-bedroom-drawer-full-of-toys:before { content: "\f13d"; }
+.flaticon-circular-wall-clock-for-livingroom:before { content: "\f13e"; }
+.flaticon-circular-window:before { content: "\f13f"; }
+.flaticon-cleaning-bottle-silhouette:before { content: "\f140"; }
+.flaticon-cleaning-brush:before { content: "\f141"; }
+.flaticon-cleaning-brush-tool:before { content: "\f142"; }
+.flaticon-cleaning-container-tool:before { content: "\f143"; }
+.flaticon-cleaning-mop:before { content: "\f144"; }
+.flaticon-cleaning-mop-for-floors:before { content: "\f145"; }
+.flaticon-cleaning-mop-house-tool:before { content: "\f146"; }
+.flaticon-cleaning-pail-for-water:before { content: "\f147"; }
+.flaticon-cleaning-spray-bottle:before { content: "\f148"; }
+.flaticon-closed-bathroom-shower:before { content: "\f149"; }
+.flaticon-clothes-hanger:before { content: "\f14a"; }
+.flaticon-clothes-hanging-on-rope-for-drying:before { content: "\f14b"; }
+.flaticon-clothespin:before { content: "\f14c"; }
+.flaticon-coat-stand-livingroom-furniture:before { content: "\f14d"; }
+.flaticon-corkscrew:before { content: "\f14e"; }
+.flaticon-covered-barbecue:before { content: "\f14f"; }
+.flaticon-cream-bottle-of-bathroom:before { content: "\f150"; }
+.flaticon-cutting-tool-for-gardening:before { content: "\f151"; }
+.flaticon-dark-door:before { content: "\f152"; }
+.flaticon-desk-lamp-tool:before { content: "\f153"; }
+.flaticon-dining-room-carpet:before { content: "\f154"; }
+.flaticon-dining-room-chair:before { content: "\f155"; }
+.flaticon-dining-room-cup-on-a-plate:before { content: "\f156"; }
+.flaticon-dining-room-cupboard-with-glasses:before { content: "\f157"; }
+.flaticon-dining-room-cutlery-set-of-three-pieces-in-silhouettes:before { content: "\f158"; }
+.flaticon-dining-room-furniture:before { content: "\f159"; }
+.flaticon-dining-room-furniture-of-a-table-with-chairs:before { content: "\f15a"; }
+.flaticon-dining-room-furniture-to-storage-objects:before { content: "\f15b"; }
+.flaticon-dining-room-table-eating-tools-set-from-top-view:before { content: "\f15c"; }
+.flaticon-door:before { content: "\f15d"; }
+.flaticon-door-design:before { content: "\f15e"; }
+.flaticon-door-design-1:before { content: "\f15f"; }
+.flaticon-door-of-arch-shape-with-two-small-trees-on-pots-at-both-sides:before { content: "\f160"; }
+.flaticon-door-with-steps:before { content: "\f161"; }
+.flaticon-drawer-rack-of-a-livingroom-with-books-and-a-bowl:before { content: "\f162"; }
+.flaticon-dvd-player-tool:before { content: "\f163"; }
+.flaticon-economic-architecture-building-of-stacked-containers:before { content: "\f164"; }
+.flaticon-electric-heating-tool-with-water-system:before { content: "\f165"; }
+.flaticon-electric-kettle:before { content: "\f166"; }
+.flaticon-electric-lengthen:before { content: "\f167"; }
+.flaticon-electric-outlet:before { content: "\f168"; }
+.flaticon-electric-plugins-of-wall:before { content: "\f169"; }
+.flaticon-electric-socket:before { content: "\f16a"; }
+.flaticon-electric-socket-of-circular-shape-with-two-holes:before { content: "\f16b"; }
+.flaticon-electric-socket-of-three-straight-holes:before { content: "\f16c"; }
+.flaticon-electric-socket-of-two-straight-lines-holes:before { content: "\f16d"; }
+.flaticon-electrical-circular-wall-connection:before { content: "\f16e"; }
+.flaticon-electrical-socket-connector-of-three-holes:before { content: "\f16f"; }
+.flaticon-electronic-house-tool-of-alarm:before { content: "\f170"; }
+.flaticon-electronic-visualization-monitor-tool-for-tv-or-computer:before { content: "\f171"; }
+.flaticon-elegant-door-entrance:before { content: "\f172"; }
+.flaticon-elegant-door-of-entrance-with-columns:before { content: "\f173"; }
+.flaticon-fan:before { content: "\f174"; }
+.flaticon-fire-lighter:before { content: "\f175"; }
+.flaticon-fireplace-with-fire-flames-heating-home:before { content: "\f176"; }
+.flaticon-flowers-pot-of-yard:before { content: "\f177"; }
+.flaticon-fluffy-puff:before { content: "\f178"; }
+.flaticon-frying-pan:before { content: "\f179"; }
+.flaticon-garage-drawer-furniture-for-tools-storage-and-organization:before { content: "\f17a"; }
+.flaticon-garage-fixing-toolbox-set:before { content: "\f17b"; }
+.flaticon-garage-lantern-tool:before { content: "\f17c"; }
+.flaticon-garage-nut-tool-hexagonal-shape:before { content: "\f17d"; }
+.flaticon-garage-saw-tool-sawing-a-table:before { content: "\f17e"; }
+.flaticon-garage-table-with-drawers:before { content: "\f17f"; }
+.flaticon-garage-with-opened-door-and-a-car-inside:before { content: "\f180"; }
+.flaticon-garage-wrenches:before { content: "\f181"; }
+.flaticon-gardening-shovel-tool-shape:before { content: "\f182"; }
+.flaticon-glass:before { content: "\f183"; }
+.flaticon-grass-leaves-silhouette:before { content: "\f184"; }
+.flaticon-hairdryer:before { content: "\f185"; }
+.flaticon-hammer-nailing-a-nail:before { content: "\f186"; }
+.flaticon-hand-written-paper:before { content: "\f187"; }
+.flaticon-hanging-cloth-towel-of-bathroom:before { content: "\f188"; }
+.flaticon-home-building-like-a-birds-house:before { content: "\f189"; }
+.flaticon-home-theatre-and-monitor-on-livingroom-furniture:before { content: "\f18a"; }
+.flaticon-hose-watering-tool-for-gardening:before { content: "\f18b"; }
+.flaticon-house-building:before { content: "\f18c"; }
+.flaticon-house-building-1:before { content: "\f18d"; }
+.flaticon-house-building-2:before { content: "\f18e"; }
+.flaticon-house-building-beside-a-pine-tree:before { content: "\f18f"; }
+.flaticon-house-building-front:before { content: "\f190"; }
+.flaticon-house-construction:before { content: "\f191"; }
+.flaticon-house-fireplace:before { content: "\f192"; }
+.flaticon-house-front:before { content: "\f193"; }
+.flaticon-house-front-1:before { content: "\f194"; }
+.flaticon-house-front-of-three-floors:before { content: "\f195"; }
+.flaticon-house-frontal-view-with-entrance-door-and-garage:before { content: "\f196"; }
+.flaticon-house-security-keyhole-tool:before { content: "\f197"; }
+.flaticon-house-stairs:before { content: "\f198"; }
+.flaticon-house-with-one-frontal-window:before { content: "\f199"; }
+.flaticon-iron:before { content: "\f19a"; }
+.flaticon-jar-container-for-liquids:before { content: "\f19b"; }
+.flaticon-key:before { content: "\f19c"; }
+.flaticon-king-size-bedroom:before { content: "\f19d"; }
+.flaticon-kitchen-bell-extractor:before { content: "\f19e"; }
+.flaticon-kitchen-bowl:before { content: "\f19f"; }
+.flaticon-kitchen-ceiling-lamp-of-semicircular-shape:before { content: "\f1a0"; }
+.flaticon-kitchen-chair:before { content: "\f1a1"; }
+.flaticon-kitchen-chair-1:before { content: "\f1a2"; }
+.flaticon-kitchen-circular-ceramic-plates-stacked:before { content: "\f1a3"; }
+.flaticon-kitchen-cloth-glove-to-protect-hand:before { content: "\f1a4"; }
+.flaticon-kitchen-cups-set-hanging-of-a-rack:before { content: "\f1a5"; }
+.flaticon-kitchen-electronic-furniture:before { content: "\f1a6"; }
+.flaticon-kitchen-furniture:before { content: "\f1a7"; }
+.flaticon-kitchen-grater-cutting-tool:before { content: "\f1a8"; }
+.flaticon-kitchen-knife:before { content: "\f1a9"; }
+.flaticon-kitchen-lighter-house-tool:before { content: "\f1aa"; }
+.flaticon-kitchen-or-dining-room-door-with-oval-window:before { content: "\f1ab"; }
+.flaticon-kitchen-palette-for-cooking:before { content: "\f1ac"; }
+.flaticon-kitchen-small-bench:before { content: "\f1ad"; }
+.flaticon-kitchen-spices-set-in-flasks-on-a-rack:before { content: "\f1ae"; }
+.flaticon-kitchen-spoons-set:before { content: "\f1af"; }
+.flaticon-kitchen-table-and-seats-set-of-furniture:before { content: "\f1b0"; }
+.flaticon-lamp:before { content: "\f1b1"; }
+.flaticon-lamp-1:before { content: "\f1b2"; }
+.flaticon-leaves-of-garden:before { content: "\f1b3"; }
+.flaticon-lightbulb:before { content: "\f1b4"; }
+.flaticon-living-room-black-lamp-furniture-tool-for-illumination:before { content: "\f1b5"; }
+.flaticon-living-room-books-group:before { content: "\f1b6"; }
+.flaticon-livingroom-armchair:before { content: "\f1b7"; }
+.flaticon-livingroom-armchair-1:before { content: "\f1b8"; }
+.flaticon-livingroom-black-curtains:before { content: "\f1b9"; }
+.flaticon-livingroom-black-double-sofa:before { content: "\f1ba"; }
+.flaticon-livingroom-curtain-tool:before { content: "\f1bb"; }
+.flaticon-livingroom-cushion-of-square-shape:before { content: "\f1bc"; }
+.flaticon-livingroom-cushions-couple:before { content: "\f1bd"; }
+.flaticon-livingroom-furniture:before { content: "\f1be"; }
+.flaticon-livingroom-illumination-tool:before { content: "\f1bf"; }
+.flaticon-livingroom-lamp:before { content: "\f1c0"; }
+.flaticon-livingroom-lamp-1:before { content: "\f1c1"; }
+.flaticon-livingroom-lamp-of-black-design:before { content: "\f1c2"; }
+.flaticon-livingroom-objects-in-library:before { content: "\f1c3"; }
+.flaticon-livingroom-plant-pot-with-bamboo:before { content: "\f1c4"; }
+.flaticon-livingroom-rack-furniture:before { content: "\f1c5"; }
+.flaticon-livingroom-rocking-chair:before { content: "\f1c6"; }
+.flaticon-livingroom-small-tall-table-with-seats-set:before { content: "\f1c7"; }
+.flaticon-livingroom-storage-furniture:before { content: "\f1c8"; }
+.flaticon-livingroom-table:before { content: "\f1c9"; }
+.flaticon-livingroom-table-with-a-small-jar:before { content: "\f1ca"; }
+.flaticon-livingroom-window-with-curtains:before { content: "\f1cb"; }
+.flaticon-long-studio-ruler-tool:before { content: "\f1cc"; }
+.flaticon-magazines-drawer-of-grid-design:before { content: "\f1cd"; }
+.flaticon-mail-box:before { content: "\f1ce"; }
+.flaticon-microwave-or-small-oven-kitchen-cooking-tool:before { content: "\f1cf"; }
+.flaticon-mixer:before { content: "\f1d0"; }
+.flaticon-mixer-1:before { content: "\f1d1"; }
+.flaticon-mixer-machine-with-jar:before { content: "\f1d2"; }
+.flaticon-modern-livingroom-furniture-shapes:before { content: "\f1d3"; }
+.flaticon-mop-cleaning-tool-for-house-floors:before { content: "\f1d4"; }
+.flaticon-mop-tool-to-clean-floors:before { content: "\f1d5"; }
+.flaticon-mouse-with-cord:before { content: "\f1d6"; }
+.flaticon-mower-machine:before { content: "\f1d7"; }
+.flaticon-opened-window-door:before { content: "\f1d8"; }
+.flaticon-opened-window-door-of-glasses:before { content: "\f1d9"; }
+.flaticon-organizer-box-for-storage-of-things:before { content: "\f1da"; }
+.flaticon-ornamental-candles-for-livingroom-decoration:before { content: "\f1db"; }
+.flaticon-ornamental-fruits-bowl:before { content: "\f1dc"; }
+.flaticon-oven:before { content: "\f1dd"; }
+.flaticon-oven-electric-tool:before { content: "\f1de"; }
+.flaticon-paintbrush-garage-tool:before { content: "\f1df"; }
+.flaticon-painting-roller-tool:before { content: "\f1e0"; }
+.flaticon-pepper-grinder:before { content: "\f1e1"; }
+.flaticon-phone-tool-of-home:before { content: "\f1e2"; }
+.flaticon-picture-with-frame-for-livingroom-decoration-of-house:before { content: "\f1e3"; }
+.flaticon-pipes-angles:before { content: "\f1e4"; }
+.flaticon-plant-in-a-pot:before { content: "\f1e5"; }
+.flaticon-plant-on-a-pot:before { content: "\f1e6"; }
+.flaticon-plant-pot-with-flower-for-livingroom-ornamentation:before { content: "\f1e7"; }
+.flaticon-plants-pots:before { content: "\f1e8"; }
+.flaticon-plug:before { content: "\f1e9"; }
+.flaticon-queen-size-bed:before { content: "\f1ea"; }
+.flaticon-radio-rectangular-shape:before { content: "\f1eb"; }
+.flaticon-rake:before { content: "\f1ec"; }
+.flaticon-rake-fork-for-gardening:before { content: "\f1ed"; }
+.flaticon-razor:before { content: "\f1ee"; }
+.flaticon-refrigerator:before { content: "\f1ef"; }
+.flaticon-salt-and-pepper-containers-for-dining-room:before { content: "\f1f0"; }
+.flaticon-sewing-machine:before { content: "\f1f1"; }
+.flaticon-short-shovel-to-sweep:before { content: "\f1f2"; }
+.flaticon-shovel-to-clean-house-floors:before { content: "\f1f3"; }
+.flaticon-shower-bathroom-tool:before { content: "\f1f4"; }
+.flaticon-small-bench:before { content: "\f1f5"; }
+.flaticon-spotted-beetle-insect-of-a-garden:before { content: "\f1f6"; }
+.flaticon-square-framed-mirror:before { content: "\f1f7"; }
+.flaticon-squeezer:before { content: "\f1f8"; }
+.flaticon-steering-wheel:before { content: "\f1f9"; }
+.flaticon-stones-floor:before { content: "\f1fa"; }
+.flaticon-striped-house:before { content: "\f1fb"; }
+.flaticon-striped-stick-of-yard:before { content: "\f1fc"; }
+.flaticon-studio-box-like-bag-for-storage:before { content: "\f1fd"; }
+.flaticon-studio-calculator:before { content: "\f1fe"; }
+.flaticon-studio-carpets-couple-with-papers:before { content: "\f1ff"; }
+.flaticon-studio-compass-drawing-tool:before { content: "\f200"; }
+.flaticon-studio-desk-and-chair:before { content: "\f201"; }
+.flaticon-studio-desk-with-table-chair-computer-tower-and-monitor:before { content: "\f202"; }
+.flaticon-studio-desk-with-two-drawers-and-a-computer-monitor-on-it:before { content: "\f203"; }
+.flaticon-studio-furniture-of-two-drawers-on-wheels:before { content: "\f204"; }
+.flaticon-studio-printed-paper:before { content: "\f205"; }
+.flaticon-studio-printing-machine:before { content: "\f206"; }
+.flaticon-studio-semicircular-tool-to-measure-angles-degrees:before { content: "\f207"; }
+.flaticon-studio-table-silhouette-perspective:before { content: "\f208"; }
+.flaticon-studio-tablet-computer-tool:before { content: "\f209"; }
+.flaticon-studio-trays-with-papers:before { content: "\f20a"; }
+.flaticon-studio-triangular-ruler-tool:before { content: "\f20b"; }
+.flaticon-studio-writing-tools:before { content: "\f20c"; }
+.flaticon-swimming-pool-perspective-with-water:before { content: "\f20d"; }
+.flaticon-table-and-two-chairs-set-for-back-yard:before { content: "\f20e"; }
+.flaticon-three-candles-candelabrum-of-livingroom-ornamentation:before { content: "\f20f"; }
+.flaticon-toothbrush:before { content: "\f210"; }
+.flaticon-toothbrush-1:before { content: "\f211"; }
+.flaticon-two-burners-from-top-view:before { content: "\f212"; }
+.flaticon-two-single-beds-and-a-small-table-in-the-middle-of-bedroom-furniture:before { content: "\f213"; }
+.flaticon-umbrella:before { content: "\f214"; }
+.flaticon-vacuum:before { content: "\f215"; }
+.flaticon-vintage-turntable-audio-tool:before { content: "\f216"; }
+.flaticon-vintage-water-pump:before { content: "\f217"; }
+.flaticon-wall-socket-of-three-holes-in-rectangular-shape:before { content: "\f218"; }
+.flaticon-washing-machine:before { content: "\f219"; }
+.flaticon-water-closet:before { content: "\f21a"; }
+.flaticon-water-tap-on-pipes:before { content: "\f21b"; }
+.flaticon-watering-can-silhouette:before { content: "\f21c"; }
+.flaticon-watering-pipes-for-gardening:before { content: "\f21d"; }
+.flaticon-wheelbarrow-tool-for-yard:before { content: "\f21e"; }
+.flaticon-window-building-detail:before { content: "\f21f"; }
+.flaticon-wine-bottles-on-a-rack:before { content: "\f220"; }
+.flaticon-wine-glass:before { content: "\f221"; }
+.flaticon-wood-fence-of-yard:before { content: "\f222"; }
+.flaticon-wrench-silhouette-in-horizontal-position:before { content: "\f223"; }
+.flaticon-yard-bird-feeder:before { content: "\f224"; }
+.flaticon-yard-deck-chair:before { content: "\f225"; }
+.flaticon-yard-fountain:before { content: "\f226"; }
+.flaticon-yard-hosepipe-in-spiral:before { content: "\f227"; }
+.flaticon-yard-pot-with-saguaro-cactus:before { content: "\f228"; }
+.flaticon-yard-scissors-for-gardening:before { content: "\f229"; }
+.flaticon-yard-stone-floor-architectonic-detail:before { content: "\f22a"; }
+.flaticon-yard-tool-shape:before { content: "\f22b"; }
+.flaticon-yard-tree-in-a-pot:before { content: "\f22c"; }
+.flaticon-yard-tree-of-circular-shape-in-a-pot:before { content: "\f22d"; }
+    
+    $font-Flaticon-antique-clock: "\f100";
+    $font-Flaticon-armchair-with-wheels-of-studio-furniture: "\f101";
+    $font-Flaticon-audio-equipment: "\f102";
+    $font-Flaticon-baby-crib-bedroom-furniture: "\f103";
+    $font-Flaticon-bathroom-black-bottle-container-with-spray-system: "\f104";
+    $font-Flaticon-bathroom-bottle: "\f105";
+    $font-Flaticon-bathroom-bottle-container-of-rounded-rectangular-black-shape: "\f106";
+    $font-Flaticon-bathroom-brush: "\f107";
+    $font-Flaticon-bathroom-brush-cleaning-tool: "\f108";
+    $font-Flaticon-bathroom-closet-with-personal-care-objects: "\f109";
+    $font-Flaticon-bathroom-detail: "\f10a";
+    $font-Flaticon-bathroom-drainage-of-circular-shape: "\f10b";
+    $font-Flaticon-bathroom-faucet: "\f10c";
+    $font-Flaticon-bathroom-faucet-tool: "\f10d";
+    $font-Flaticon-bathroom-first-aid-kit-box: "\f10e";
+    $font-Flaticon-bathroom-furniture: "\f10f";
+    $font-Flaticon-bathroom-furniture-1: "\f110";
+    $font-Flaticon-bathroom-hanging-towel: "\f111";
+    $font-Flaticon-bathroom-organization-furniture: "\f112";
+    $font-Flaticon-bathroom-paper-roll: "\f113";
+    $font-Flaticon-bathroom-spray-bottle: "\f114";
+    $font-Flaticon-bathroom-tap-silhouette: "\f115";
+    $font-Flaticon-bathroom-tap-tool-to-control-water-supply: "\f116";
+    $font-Flaticon-bathroom-toothpaste-tube: "\f117";
+    $font-Flaticon-bathroom-towel: "\f118";
+    $font-Flaticon-bathroom-trash-container: "\f119";
+    $font-Flaticon-bathtub-with-opened-shower: "\f11a";
+    $font-Flaticon-bed-design-with-three-drawers: "\f11b";
+    $font-Flaticon-bed-room-mirror-on-a-drawer-furniture: "\f11c";
+    $font-Flaticon-bed-side-view: "\f11d";
+    $font-Flaticon-bedroom-black-closed-closet-for-clothes: "\f11e";
+    $font-Flaticon-bedroom-circular-alarm-clock-tool: "\f11f";
+    $font-Flaticon-bedroom-closet-with-opened-door-of-the-side-to-hang-clothes: "\f120";
+    $font-Flaticon-bedroom-drawer-furniture: "\f121";
+    $font-Flaticon-bedroom-drawer-furniture-with-tv-monitor: "\f122";
+    $font-Flaticon-bedroom-drawers-furniture: "\f123";
+    $font-Flaticon-bedroom-furniture: "\f124";
+    $font-Flaticon-bedroom-furniture-equipment: "\f125";
+    $font-Flaticon-bedroom-furniture-small-table-for-bed-side: "\f126";
+    $font-Flaticon-bedroom-hanger-for-clothes: "\f127";
+    $font-Flaticon-bedroom-library-of-wheels-with-books: "\f128";
+    $font-Flaticon-bedroom-mirror: "\f129";
+    $font-Flaticon-bedroom-mirror-on-drawers-with-a-seat: "\f12a";
+    $font-Flaticon-bedroom-rack-furniture-to-hang-things: "\f12b";
+    $font-Flaticon-bedroom-stairs-tool: "\f12c";
+    $font-Flaticon-bedroom-wardrobe: "\f12d";
+    $font-Flaticon-big-luxury-door-entrance-architectural-detail: "\f12e";
+    $font-Flaticon-black-bed: "\f12f";
+    $font-Flaticon-black-box-for-storage: "\f130";
+    $font-Flaticon-black-box-for-storage-and-organization-of-things: "\f131";
+    $font-Flaticon-black-door: "\f132";
+    $font-Flaticon-black-door-1: "\f133";
+    $font-Flaticon-black-sofa-of-livingroom: "\f134";
+    $font-Flaticon-bottle-opener-tool-for-kitchen: "\f135";
+    $font-Flaticon-box-organization-tool: "\f136";
+    $font-Flaticon-bricks-wall-with-grass-leaves-border: "\f137";
+    $font-Flaticon-bubbles-bath-bathtub: "\f138";
+    $font-Flaticon-building: "\f139";
+    $font-Flaticon-bunk-bedroom-furniture: "\f13a";
+    $font-Flaticon-candle-and-candelabrum-silhouette: "\f13b";
+    $font-Flaticon-chair-with-wheels-of-studio-furniture: "\f13c";
+    $font-Flaticon-children-bedroom-drawer-full-of-toys: "\f13d";
+    $font-Flaticon-circular-wall-clock-for-livingroom: "\f13e";
+    $font-Flaticon-circular-window: "\f13f";
+    $font-Flaticon-cleaning-bottle-silhouette: "\f140";
+    $font-Flaticon-cleaning-brush: "\f141";
+    $font-Flaticon-cleaning-brush-tool: "\f142";
+    $font-Flaticon-cleaning-container-tool: "\f143";
+    $font-Flaticon-cleaning-mop: "\f144";
+    $font-Flaticon-cleaning-mop-for-floors: "\f145";
+    $font-Flaticon-cleaning-mop-house-tool: "\f146";
+    $font-Flaticon-cleaning-pail-for-water: "\f147";
+    $font-Flaticon-cleaning-spray-bottle: "\f148";
+    $font-Flaticon-closed-bathroom-shower: "\f149";
+    $font-Flaticon-clothes-hanger: "\f14a";
+    $font-Flaticon-clothes-hanging-on-rope-for-drying: "\f14b";
+    $font-Flaticon-clothespin: "\f14c";
+    $font-Flaticon-coat-stand-livingroom-furniture: "\f14d";
+    $font-Flaticon-corkscrew: "\f14e";
+    $font-Flaticon-covered-barbecue: "\f14f";
+    $font-Flaticon-cream-bottle-of-bathroom: "\f150";
+    $font-Flaticon-cutting-tool-for-gardening: "\f151";
+    $font-Flaticon-dark-door: "\f152";
+    $font-Flaticon-desk-lamp-tool: "\f153";
+    $font-Flaticon-dining-room-carpet: "\f154";
+    $font-Flaticon-dining-room-chair: "\f155";
+    $font-Flaticon-dining-room-cup-on-a-plate: "\f156";
+    $font-Flaticon-dining-room-cupboard-with-glasses: "\f157";
+    $font-Flaticon-dining-room-cutlery-set-of-three-pieces-in-silhouettes: "\f158";
+    $font-Flaticon-dining-room-furniture: "\f159";
+    $font-Flaticon-dining-room-furniture-of-a-table-with-chairs: "\f15a";
+    $font-Flaticon-dining-room-furniture-to-storage-objects: "\f15b";
+    $font-Flaticon-dining-room-table-eating-tools-set-from-top-view: "\f15c";
+    $font-Flaticon-door: "\f15d";
+    $font-Flaticon-door-design: "\f15e";
+    $font-Flaticon-door-design-1: "\f15f";
+    $font-Flaticon-door-of-arch-shape-with-two-small-trees-on-pots-at-both-sides: "\f160";
+    $font-Flaticon-door-with-steps: "\f161";
+    $font-Flaticon-drawer-rack-of-a-livingroom-with-books-and-a-bowl: "\f162";
+    $font-Flaticon-dvd-player-tool: "\f163";
+    $font-Flaticon-economic-architecture-building-of-stacked-containers: "\f164";
+    $font-Flaticon-electric-heating-tool-with-water-system: "\f165";
+    $font-Flaticon-electric-kettle: "\f166";
+    $font-Flaticon-electric-lengthen: "\f167";
+    $font-Flaticon-electric-outlet: "\f168";
+    $font-Flaticon-electric-plugins-of-wall: "\f169";
+    $font-Flaticon-electric-socket: "\f16a";
+    $font-Flaticon-electric-socket-of-circular-shape-with-two-holes: "\f16b";
+    $font-Flaticon-electric-socket-of-three-straight-holes: "\f16c";
+    $font-Flaticon-electric-socket-of-two-straight-lines-holes: "\f16d";
+    $font-Flaticon-electrical-circular-wall-connection: "\f16e";
+    $font-Flaticon-electrical-socket-connector-of-three-holes: "\f16f";
+    $font-Flaticon-electronic-house-tool-of-alarm: "\f170";
+    $font-Flaticon-electronic-visualization-monitor-tool-for-tv-or-computer: "\f171";
+    $font-Flaticon-elegant-door-entrance: "\f172";
+    $font-Flaticon-elegant-door-of-entrance-with-columns: "\f173";
+    $font-Flaticon-fan: "\f174";
+    $font-Flaticon-fire-lighter: "\f175";
+    $font-Flaticon-fireplace-with-fire-flames-heating-home: "\f176";
+    $font-Flaticon-flowers-pot-of-yard: "\f177";
+    $font-Flaticon-fluffy-puff: "\f178";
+    $font-Flaticon-frying-pan: "\f179";
+    $font-Flaticon-garage-drawer-furniture-for-tools-storage-and-organization: "\f17a";
+    $font-Flaticon-garage-fixing-toolbox-set: "\f17b";
+    $font-Flaticon-garage-lantern-tool: "\f17c";
+    $font-Flaticon-garage-nut-tool-hexagonal-shape: "\f17d";
+    $font-Flaticon-garage-saw-tool-sawing-a-table: "\f17e";
+    $font-Flaticon-garage-table-with-drawers: "\f17f";
+    $font-Flaticon-garage-with-opened-door-and-a-car-inside: "\f180";
+    $font-Flaticon-garage-wrenches: "\f181";
+    $font-Flaticon-gardening-shovel-tool-shape: "\f182";
+    $font-Flaticon-glass: "\f183";
+    $font-Flaticon-grass-leaves-silhouette: "\f184";
+    $font-Flaticon-hairdryer: "\f185";
+    $font-Flaticon-hammer-nailing-a-nail: "\f186";
+    $font-Flaticon-hand-written-paper: "\f187";
+    $font-Flaticon-hanging-cloth-towel-of-bathroom: "\f188";
+    $font-Flaticon-home-building-like-a-birds-house: "\f189";
+    $font-Flaticon-home-theatre-and-monitor-on-livingroom-furniture: "\f18a";
+    $font-Flaticon-hose-watering-tool-for-gardening: "\f18b";
+    $font-Flaticon-house-building: "\f18c";
+    $font-Flaticon-house-building-1: "\f18d";
+    $font-Flaticon-house-building-2: "\f18e";
+    $font-Flaticon-house-building-beside-a-pine-tree: "\f18f";
+    $font-Flaticon-house-building-front: "\f190";
+    $font-Flaticon-house-construction: "\f191";
+    $font-Flaticon-house-fireplace: "\f192";
+    $font-Flaticon-house-front: "\f193";
+    $font-Flaticon-house-front-1: "\f194";
+    $font-Flaticon-house-front-of-three-floors: "\f195";
+    $font-Flaticon-house-frontal-view-with-entrance-door-and-garage: "\f196";
+    $font-Flaticon-house-security-keyhole-tool: "\f197";
+    $font-Flaticon-house-stairs: "\f198";
+    $font-Flaticon-house-with-one-frontal-window: "\f199";
+    $font-Flaticon-iron: "\f19a";
+    $font-Flaticon-jar-container-for-liquids: "\f19b";
+    $font-Flaticon-key: "\f19c";
+    $font-Flaticon-king-size-bedroom: "\f19d";
+    $font-Flaticon-kitchen-bell-extractor: "\f19e";
+    $font-Flaticon-kitchen-bowl: "\f19f";
+    $font-Flaticon-kitchen-ceiling-lamp-of-semicircular-shape: "\f1a0";
+    $font-Flaticon-kitchen-chair: "\f1a1";
+    $font-Flaticon-kitchen-chair-1: "\f1a2";
+    $font-Flaticon-kitchen-circular-ceramic-plates-stacked: "\f1a3";
+    $font-Flaticon-kitchen-cloth-glove-to-protect-hand: "\f1a4";
+    $font-Flaticon-kitchen-cups-set-hanging-of-a-rack: "\f1a5";
+    $font-Flaticon-kitchen-electronic-furniture: "\f1a6";
+    $font-Flaticon-kitchen-furniture: "\f1a7";
+    $font-Flaticon-kitchen-grater-cutting-tool: "\f1a8";
+    $font-Flaticon-kitchen-knife: "\f1a9";
+    $font-Flaticon-kitchen-lighter-house-tool: "\f1aa";
+    $font-Flaticon-kitchen-or-dining-room-door-with-oval-window: "\f1ab";
+    $font-Flaticon-kitchen-palette-for-cooking: "\f1ac";
+    $font-Flaticon-kitchen-small-bench: "\f1ad";
+    $font-Flaticon-kitchen-spices-set-in-flasks-on-a-rack: "\f1ae";
+    $font-Flaticon-kitchen-spoons-set: "\f1af";
+    $font-Flaticon-kitchen-table-and-seats-set-of-furniture: "\f1b0";
+    $font-Flaticon-lamp: "\f1b1";
+    $font-Flaticon-lamp-1: "\f1b2";
+    $font-Flaticon-leaves-of-garden: "\f1b3";
+    $font-Flaticon-lightbulb: "\f1b4";
+    $font-Flaticon-living-room-black-lamp-furniture-tool-for-illumination: "\f1b5";
+    $font-Flaticon-living-room-books-group: "\f1b6";
+    $font-Flaticon-livingroom-armchair: "\f1b7";
+    $font-Flaticon-livingroom-armchair-1: "\f1b8";
+    $font-Flaticon-livingroom-black-curtains: "\f1b9";
+    $font-Flaticon-livingroom-black-double-sofa: "\f1ba";
+    $font-Flaticon-livingroom-curtain-tool: "\f1bb";
+    $font-Flaticon-livingroom-cushion-of-square-shape: "\f1bc";
+    $font-Flaticon-livingroom-cushions-couple: "\f1bd";
+    $font-Flaticon-livingroom-furniture: "\f1be";
+    $font-Flaticon-livingroom-illumination-tool: "\f1bf";
+    $font-Flaticon-livingroom-lamp: "\f1c0";
+    $font-Flaticon-livingroom-lamp-1: "\f1c1";
+    $font-Flaticon-livingroom-lamp-of-black-design: "\f1c2";
+    $font-Flaticon-livingroom-objects-in-library: "\f1c3";
+    $font-Flaticon-livingroom-plant-pot-with-bamboo: "\f1c4";
+    $font-Flaticon-livingroom-rack-furniture: "\f1c5";
+    $font-Flaticon-livingroom-rocking-chair: "\f1c6";
+    $font-Flaticon-livingroom-small-tall-table-with-seats-set: "\f1c7";
+    $font-Flaticon-livingroom-storage-furniture: "\f1c8";
+    $font-Flaticon-livingroom-table: "\f1c9";
+    $font-Flaticon-livingroom-table-with-a-small-jar: "\f1ca";
+    $font-Flaticon-livingroom-window-with-curtains: "\f1cb";
+    $font-Flaticon-long-studio-ruler-tool: "\f1cc";
+    $font-Flaticon-magazines-drawer-of-grid-design: "\f1cd";
+    $font-Flaticon-mail-box: "\f1ce";
+    $font-Flaticon-microwave-or-small-oven-kitchen-cooking-tool: "\f1cf";
+    $font-Flaticon-mixer: "\f1d0";
+    $font-Flaticon-mixer-1: "\f1d1";
+    $font-Flaticon-mixer-machine-with-jar: "\f1d2";
+    $font-Flaticon-modern-livingroom-furniture-shapes: "\f1d3";
+    $font-Flaticon-mop-cleaning-tool-for-house-floors: "\f1d4";
+    $font-Flaticon-mop-tool-to-clean-floors: "\f1d5";
+    $font-Flaticon-mouse-with-cord: "\f1d6";
+    $font-Flaticon-mower-machine: "\f1d7";
+    $font-Flaticon-opened-window-door: "\f1d8";
+    $font-Flaticon-opened-window-door-of-glasses: "\f1d9";
+    $font-Flaticon-organizer-box-for-storage-of-things: "\f1da";
+    $font-Flaticon-ornamental-candles-for-livingroom-decoration: "\f1db";
+    $font-Flaticon-ornamental-fruits-bowl: "\f1dc";
+    $font-Flaticon-oven: "\f1dd";
+    $font-Flaticon-oven-electric-tool: "\f1de";
+    $font-Flaticon-paintbrush-garage-tool: "\f1df";
+    $font-Flaticon-painting-roller-tool: "\f1e0";
+    $font-Flaticon-pepper-grinder: "\f1e1";
+    $font-Flaticon-phone-tool-of-home: "\f1e2";
+    $font-Flaticon-picture-with-frame-for-livingroom-decoration-of-house: "\f1e3";
+    $font-Flaticon-pipes-angles: "\f1e4";
+    $font-Flaticon-plant-in-a-pot: "\f1e5";
+    $font-Flaticon-plant-on-a-pot: "\f1e6";
+    $font-Flaticon-plant-pot-with-flower-for-livingroom-ornamentation: "\f1e7";
+    $font-Flaticon-plants-pots: "\f1e8";
+    $font-Flaticon-plug: "\f1e9";
+    $font-Flaticon-queen-size-bed: "\f1ea";
+    $font-Flaticon-radio-rectangular-shape: "\f1eb";
+    $font-Flaticon-rake: "\f1ec";
+    $font-Flaticon-rake-fork-for-gardening: "\f1ed";
+    $font-Flaticon-razor: "\f1ee";
+    $font-Flaticon-refrigerator: "\f1ef";
+    $font-Flaticon-salt-and-pepper-containers-for-dining-room: "\f1f0";
+    $font-Flaticon-sewing-machine: "\f1f1";
+    $font-Flaticon-short-shovel-to-sweep: "\f1f2";
+    $font-Flaticon-shovel-to-clean-house-floors: "\f1f3";
+    $font-Flaticon-shower-bathroom-tool: "\f1f4";
+    $font-Flaticon-small-bench: "\f1f5";
+    $font-Flaticon-spotted-beetle-insect-of-a-garden: "\f1f6";
+    $font-Flaticon-square-framed-mirror: "\f1f7";
+    $font-Flaticon-squeezer: "\f1f8";
+    $font-Flaticon-steering-wheel: "\f1f9";
+    $font-Flaticon-stones-floor: "\f1fa";
+    $font-Flaticon-striped-house: "\f1fb";
+    $font-Flaticon-striped-stick-of-yard: "\f1fc";
+    $font-Flaticon-studio-box-like-bag-for-storage: "\f1fd";
+    $font-Flaticon-studio-calculator: "\f1fe";
+    $font-Flaticon-studio-carpets-couple-with-papers: "\f1ff";
+    $font-Flaticon-studio-compass-drawing-tool: "\f200";
+    $font-Flaticon-studio-desk-and-chair: "\f201";
+    $font-Flaticon-studio-desk-with-table-chair-computer-tower-and-monitor: "\f202";
+    $font-Flaticon-studio-desk-with-two-drawers-and-a-computer-monitor-on-it: "\f203";
+    $font-Flaticon-studio-furniture-of-two-drawers-on-wheels: "\f204";
+    $font-Flaticon-studio-printed-paper: "\f205";
+    $font-Flaticon-studio-printing-machine: "\f206";
+    $font-Flaticon-studio-semicircular-tool-to-measure-angles-degrees: "\f207";
+    $font-Flaticon-studio-table-silhouette-perspective: "\f208";
+    $font-Flaticon-studio-tablet-computer-tool: "\f209";
+    $font-Flaticon-studio-trays-with-papers: "\f20a";
+    $font-Flaticon-studio-triangular-ruler-tool: "\f20b";
+    $font-Flaticon-studio-writing-tools: "\f20c";
+    $font-Flaticon-swimming-pool-perspective-with-water: "\f20d";
+    $font-Flaticon-table-and-two-chairs-set-for-back-yard: "\f20e";
+    $font-Flaticon-three-candles-candelabrum-of-livingroom-ornamentation: "\f20f";
+    $font-Flaticon-toothbrush: "\f210";
+    $font-Flaticon-toothbrush-1: "\f211";
+    $font-Flaticon-two-burners-from-top-view: "\f212";
+    $font-Flaticon-two-single-beds-and-a-small-table-in-the-middle-of-bedroom-furniture: "\f213";
+    $font-Flaticon-umbrella: "\f214";
+    $font-Flaticon-vacuum: "\f215";
+    $font-Flaticon-vintage-turntable-audio-tool: "\f216";
+    $font-Flaticon-vintage-water-pump: "\f217";
+    $font-Flaticon-wall-socket-of-three-holes-in-rectangular-shape: "\f218";
+    $font-Flaticon-washing-machine: "\f219";
+    $font-Flaticon-water-closet: "\f21a";
+    $font-Flaticon-water-tap-on-pipes: "\f21b";
+    $font-Flaticon-watering-can-silhouette: "\f21c";
+    $font-Flaticon-watering-pipes-for-gardening: "\f21d";
+    $font-Flaticon-wheelbarrow-tool-for-yard: "\f21e";
+    $font-Flaticon-window-building-detail: "\f21f";
+    $font-Flaticon-wine-bottles-on-a-rack: "\f220";
+    $font-Flaticon-wine-glass: "\f221";
+    $font-Flaticon-wood-fence-of-yard: "\f222";
+    $font-Flaticon-wrench-silhouette-in-horizontal-position: "\f223";
+    $font-Flaticon-yard-bird-feeder: "\f224";
+    $font-Flaticon-yard-deck-chair: "\f225";
+    $font-Flaticon-yard-fountain: "\f226";
+    $font-Flaticon-yard-hosepipe-in-spiral: "\f227";
+    $font-Flaticon-yard-pot-with-saguaro-cactus: "\f228";
+    $font-Flaticon-yard-scissors-for-gardening: "\f229";
+    $font-Flaticon-yard-stone-floor-architectonic-detail: "\f22a";
+    $font-Flaticon-yard-tool-shape: "\f22b";
+    $font-Flaticon-yard-tree-in-a-pot: "\f22c";
+    $font-Flaticon-yard-tree-of-circular-shape-in-a-pot: "\f22d";
