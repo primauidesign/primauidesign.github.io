@@ -1,6 +1,5 @@
 body {
 	font-family: 'Open Sans', sans-serif !important;
-  min-height: 2000px;
   padding-top: 70px;
 }
 .nounderline{text-decoration: none !important}
@@ -476,3 +475,38 @@ Navbar Shring Background Mobile
 div#navbar{
 	background:#fff;
 }
+/*================
+Detail Berita Text
+=================*/
+.text-content{
+	margin:10px 0;
+	}
+/*=============
+Persib Pagination
+=============*/
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+ul.pagination li a.active {
+    background-color: #0032c8;
+    color: white;
+    border: 1px solid #0032c8;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
