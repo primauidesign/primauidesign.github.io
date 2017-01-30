@@ -510,3 +510,55 @@ ul.pagination li a.active {
 }
 
 ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+/*=============
+Halaman Pemain
+==============*/
+.nama-pemain h1 {
+    font-weight: 700;
+    color: #1c378d;
+}
+.no-dan-posisi {
+    background-image: url(image/ornaments.png);
+    background-repeat: no-repeat;
+    height: 45px;
+}
+.no-dan-posisi p {
+    color: #1c378d;
+    padding: 5px 20px;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+.no-dan-posisi span {
+    margin-left: 35px;
+    color: #fff;
+}
+.data-diri span {
+    font-weight: 700;
+    text-align: justify;
+    margin-left: 10px;
+}
+.data-diri p {
+    color: #1c378d;
+    text-align: justify;
+    margin: 11px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #bdbdbd;
+}
+/*=====
+Table
+======*/
+.tbl-persib thead {
+    background: #0e2d7e;
+    color: #fff;
+}
+.tbl-persib tbody tr {
+    background: #0032ca;
+    color: #fff;
+    border: none;
+}
+table.table.tbl-persib td {
+    border: none;
+}
+.tbl-persib thead tr th {
+    border: none;
+}
