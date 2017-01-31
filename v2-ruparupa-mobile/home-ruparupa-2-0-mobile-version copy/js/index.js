@@ -7,7 +7,8 @@
         spaceBetween: 30,
         centeredSlides: true,
         autoplay: 4500,
-        autoplayDisableOnInteraction: false
+        autoplayDisableOnInteraction: false,
+        loop: true,
     });
 	var swiper2 = new Swiper('.inspiration-slider', {
         pagination: '.swiper-pagination2',
@@ -46,7 +47,7 @@
                 spaceBetween: 16
             },
             768: {
-                slidesPerView:2.2,
+                slidesPerView: 2.2,
                 spaceBetween: 1
             },
             640: {
