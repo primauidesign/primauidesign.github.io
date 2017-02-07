@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ruparupa 2.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet prefetch" href='https://file.myfontastic.com/CcKHnLQg2N6K9Z2gZL5Sne/icons.css'>
+    <link rel="stylesheet prefetch" href='https://cdn.linearicons.com/free/1.0.0/icon-font.min.css'>
+    <link rel="stylesheet prefetch" href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900'>
+    <link rel="stylesheet prefetch" href='https://blokkfont-losgordos.netdna-ssl.com/v2/blokkfont.css'>
+    <link rel="stylesheet prefetch" href='https://primaapriansyah.bitbucket.io/pure-drawer/css/pure-drawer.css'>
+    <link rel="stylesheet prefetch" href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        nav.navbar.navbar-default.navbar-fixed-top button.btn.btn-default.navbar-btn.register-button {
+            margin-right: 15px;
+        }
+        nav.navbar.navbar-default.navbar-fixed-top button.btn.btn-default.navbar-btn.signin-button {
+            margin-right: 10px;
+        }
+        body {
+    padding-top: 70px;
+    height: 2000em;
+			background: #ECF0F1;
+			font-family: 'Source Sans Pro', sans-serif;
+}
+#wrapper {
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    display: inline-block;
+}
+#main-wrapper {
+    height: 100%;
+    overflow-y: auto;
+    padding: 50px 0 0px 0;
+}
+#main {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 15px;
+}
+#sidebar-wrapper {
+    height: 100%;
+    padding: 50px 0 0px 0;
+    position: fixed;
+}
+#sidebar {
+    position: relative;
+    height: 100%;
+    overflow:hidden;
+}
+		#sidebar .rr-sidebar-icon{
+			margin-right: 10px;
+    font-size: 17px;
+    vertical-align: middle;
+		}
+		
+		.fw-600{
+			font-weight: 600;
+		}
+#sidebar .list-group-item {
+        border-radius: 0;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+}
+@media (max-width: 992px) {
+    body {
+        padding-top: 0px;
+    }
+}
+@media (min-width: 992px) {
+    #main-wrapper {
+        float:right;
+    }
+}
+@media (max-width: 992px) {
+    #main-wrapper {
+        padding-top: 0px;
+    }
+}
+@media (max-width: 992px) {
+    #sidebar-wrapper {
+        position: static;
+        height:auto;
+        max-height: 300px;
+  		border-right:0;
+	}
+}
+div#sidebar .list-group-item {
+    background: #ECF0F1;
+    border: #ECF0F1;
+}
+		
+		/*==============
+Card
+=================*/
+        
+        .card-group {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+        }
+        .card-group .card:first-child {
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+        }
+        .card-group .card {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 0 0%;
+            -ms-flex: 1 0 0%;
+            flex: 1 0 0%;
+        }
+        .card {
+            position: relative;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            background-color: #fff;
+            border: 0.1px solid rgb(236, 240, 241);
+            border-radius: .25rem;
+        }
+        .card-img-top {
+            border-top-right-radius: calc(.25rem - 1px);
+            border-top-left-radius: calc(.25rem - 1px);
+        }
+        .card-block {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 1 auto;
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            padding: 0.7rem;
+            font-size: 1.5rem;
+        }
+        .card-title {
+            margin-bottom: .75rem;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        .card-footer:last-child {
+            border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+        }
+        .card-footer {
+            padding: .75rem 1.25rem;
+            background-color: #f7f7f9;
+            border-top: 1px solid rgba(0, 0, 0, .125);
+        }
+        /*===============
+Linearicon
+================*/
+        
+        .lnr-cart {
+            color: #fff;
+            font-size: 1.8em;
+        }
+        .lnr-user {
+            color: #fff;
+            font-size: 1.8em;
+        }
+        .lnr-menu {
+            color: #fff;
+            font-size: 1.8em;
+        }
+        /*=========
+Card Price
+==========*/
+        
+        p.card-text.text-left.old-price span.price-line-through {
+            text-decoration: line-through;
+            margin-right: 10px;
+            color: #919191;
+        }
+        p.card-text.text-left.old-price {
+            text-decoration: none !important;
+            margin-bottom: 0px;
+        }
+        span.discount-card {
+            background: red;
+            color: #fff;
+            border-radius: 4px;
+            padding: 0 3px;
+        }
+        p.card-text.text-left.last-price {
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+        .card-footer.installment {
+            text-align: left;
+            border: none;
+            padding: 0.7rem;
+        }
+        p.card-text.text-left.old-price-none {
+            margin: 2.8rem;
+        }
+        /*==========
+Label
+===========*/
+        
+        div.label-card img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 20%;
+        }
+        .wishlist-label img {
+            width: 50%;
+        }
+        .wishlist-label {
+            position: absolute;
+            left: 5px;
+            top: 5px;
+        }
+        .relative {
+            position: relative;
+        }
+        .notification-card {
+            position: absolute;
+            background: rgba(221, 221, 221, 0.48);
+            width: 100%;
+            /*top: 20rem;*/
+            
+            bottom: 0px;
+            font-size: 1.5rem;
+            letter-spacing: 0.5px;
+        }
+        .notification-card p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <!-- <li class="active"><a href="#">Home</a></li> -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle fw-600" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kategori <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Rumah Tangga</a>
+                            </li>
+                            <li><a href="#">Dapur Minimalis</a>
+                            </li>
+                            <li><a href="#">Bath & Bed</a>
+                            </li>
+                            <li><a href="#">Home Improvement</a>
+                            </li>
+                            <li><a href="#">Furniture</a>
+                            </li>
+                            <li><a href="#">Otomotif</a>
+                            </li>
+                            <li><a href="#">Hobi & Gaya Hidup</a>
+                            </li>
+                            <li><a href="#">Rumah Tangga</a>
+                            </li>
+                            <li><a href="#">Dapur Minimalis</a>
+                            </li>
+                            <li><a href="#">Bath & Bed</a>
+                            </li>
+                            <li><a href="#">Hobi & Gaya Hidup</a>
+                            </li>
+                            <li><a href="#">Rumah Tangga</a>
+                            </li>
+                            <li><a href="#">Dapur Minimalis</a>
+                            </li>
+                            <li><a href="#">Home Improvement</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="fw-600" href="../navbar/">Blog</a>
+                    </li>
+                    <li><a  class="fw-600" href="../navbar/">Inspiration</a>
+                    </li>
+                    <li><a class="fw-600"  href="../navbar/">Bantuan</a>
+                    </li>
+                    <li><a  class="fw-600" href="../navbar/">Flash Sale</a>
+                    </li>
+                    <li>
+                        <button class="btn btn-default navbar-btn signin-button fw-600" type="button">Cart</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-default navbar-btn register-button fw-600" type="button">Masuk</button>
+                    </li>
+                    <!-- <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a>
+                    </li> -->
+                </ul>
+                <form class="navbar-form search-waterbe">
+                    <div class="form-group" style="display:inline;">
+                        <div class="input-group" style="display:table;">
+                            <span class="input-group-addon" style="width:1%;"><span class="lnr lnr-magnifier"></span></span>
+                            <input class="form-control" name="search" placeholder="Cari" autocomplete="off" autofocus type="text">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+
+<div id="wrapper">
+    <div id="sidebar-wrapper" class="col-md-2">
+        <div id="sidebar">
+            <ul class="nav list-group">
+                <li>
+					<a class="list-group-item fw-600" href="#"><span class="rr-sidebar-icon lnr lnr lnr-star"></span>New Arrival<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+                <li>
+                    <a class="list-group-item fw-600" href="#"><span class="rr-sidebar-icon lnr lnr-gift"></span>Deals & Sale<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+                <li>
+                    <a class="list-group-item fw-600" href="#"><span class="rr-sidebar-icon lnr lnr-home"></span>Rumah Tangga<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+                <li>
+                    <a class="list-group-item fw-600" href="#"><span class="rr-sidebar-icon lnr lnr-dinner"></span>Dapur Minimalis<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+                <li>
+                    <a class="list-group-item fw-600" href="#"><span class="rr-sidebar-icon lnr lnr-drop"></span>Bed & Bath<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+                <li>
+                    <a class="list-group-item fw-600" href="#"><span class="lnr lnr-briefcase rr-sidebar-icon "></span>Home Improvement<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+                <li>
+                    <a class="list-group-item fw-600" href="#"><span class="rr-sidebar-icon lnr lnr-apartment"></span>Furniture<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+                <li>
+                    <a class="list-group-item fw-600" href="#"><span class="rr-sidebar-icon lnr lnr-car"></span>Otomotif<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+                <li>
+                    <a class="list-group-item fw-600" href="#"><span class="rr-sidebar-icon lnr lnr-bicycle"></span>Hobi & Gaya Hidup<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+                <li>
+                    <a class="list-group-item fw-600" href="#"><span class="rr-sidebar-icon lnr lnr-leaf"></span>Kesehatan & Olahraga<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+                <li>
+                    <a class="list-group-item fw-600" href="#"><span class="rr-sidebar-icon lnr lnr-laptop-phone"></span>Elektronik & Gedgate<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+                <li>
+                    <a class="list-group-item fw-600" href="#"><span class="rr-sidebar-icon lnr lnr-rocket"></span>Mainan Bayi<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+                <li>
+                    <a class="list-group-item fw-600" href="#"><span class="rr-sidebar-icon lnr lnr-camera"></span>Gallery<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+                <li>
+                    <a class="list-group-item fw-600" href="#"><span class="rr-sidebar-icon lnr lnr-bookmark"></span>Brands<i class="fa fa-angle-right pull-right"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="main-wrapper" class="col-md-10 pull-right">
+        <div id="main">
+
+            <div class="row banner-slider">
+                <!-- Swiper -->
+                <div class="swiper-container main-slider-banner">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="img-responsive" src="https://primauidesign.github.io/Ruparupa2/Scroll%20Up%20Show%20Nav/img/Banner-Slider1.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-responsive" src="https://primauidesign.github.io/Ruparupa2/Scroll%20Up%20Show%20Nav/img/Banner-Slider2.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-responsive" src="https://primauidesign.github.io/Ruparupa2/Scroll%20Up%20Show%20Nav/img/Banner-Slider3.jpg">
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <br>
+			<div class="row">
+            <div class="swiper-container inspiration-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/inspirations_create-your-dream-office_bannerpage.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/perfect-gift-ideas_page-banner.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/banner-page-1022x350_5.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/inspirations_your-laundry-assistants_bannerpage.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/cleanitup_banner-page.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/inspirations_home-electronics_banner-page.jpg">
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination2"></div>
+            </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="swiper-container people-choice-product product-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card-group">
+                                        <div class="card">
+                                            <img class="card-img-top" style=" width: 100%; display: block;" src="https://res.cloudinary.com/ruparupa-com/image/upload/c_scale,w_210/v1476932609/10065474_1.jpg">
+                                            <div class="wishlist-label">
+                                                <img src="https://d78vgah46qwfq.cloudfront.net/assets/icon-addto-fav-5800b8a74e00c4095fb3263257d98f9402c3e54925119b286620df63631bed5f.png">
+                                            </div>
+                                            <div class="card-block">
+                                                <h4 class="card-title text-left">Stockholm 3 Seater Sofa Cushions - Grani...</h4>
+                                                <div>
+                                                    <p class="card-text text-left old-price"><span class="price-line-through">Rp 5.000.000</span><span class="discount-card">50%</span>
+                                                    </p>
+                                                </div>
+                                                <div>
+                                                    <p class="card-text text-left last-price">Rp 2.500.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- -->
+                                <div class="swiper-slide">
+                                    <div class="card-group">
+                                        <div class="card">
+                                            <img class="card-img-top" style=" width: 100%; display: block;" src="https://res.cloudinary.com/ruparupa-com/image/upload/v1476947299/10031493_1.jpg">
+                                            <div class="wishlist-label">
+                                                <img src="https://d78vgah46qwfq.cloudfront.net/assets/icon-addto-fav-5800b8a74e00c4095fb3263257d98f9402c3e54925119b286620df63631bed5f.png">
+                                            </div>
+                                            <div class="card-block">
+                                                <h4 class="card-title text-left">Stockholm 3 Seater Sofa Cushions - Grani...</h4>
+                                                <div>
+                                                    <p class="card-text text-left old-price-none"></p>
+                                                </div>
+                                                <div>
+                                                    <p class="card-text text-left last-price">Rp 2.500.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- -->
+                                <div class="swiper-slide">
+                                    <div class="card-group">
+                                        <div class="card">
+                                            <img class="card-img-top" style=" width: 100%; display: block;" src="https://res.cloudinary.com/ruparupa-com/image/upload/v1480914935/10059619_1.jpg">
+                                            <div class="wishlist-label">
+                                                <img src="https://d78vgah46qwfq.cloudfront.net/assets/icon-addto-fav-5800b8a74e00c4095fb3263257d98f9402c3e54925119b286620df63631bed5f.png">
+                                            </div>
+                                            <div class="label-card">
+                                                <img src="https://img.ruparupa.com/media/static/icon/label/icon_bestseller16.png">
+                                            </div>
+                                            <div class="card-block">
+                                                <h4 class="card-title text-left">Stockholm 3 Seater Sofa Cushions - Grani...</h4>
+                                                <div>
+                                                    <p class="card-text text-left old-price-none"></p>
+                                                </div>
+                                                <div>
+                                                    <p class="card-text text-left last-price">Rp 2.500.000</p>
+                                                </div>
+                                            </div>
+                                            <!--  <div class="card-footer installment">
+                                <small class="text-muted">Cicilan 12 x Rp 208.333</small>
+                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- -->
+                                <div class="swiper-slide">
+                                    <div class="card-group">
+                                        <div class="card">
+                                            <div class="relative">
+                                                <img class="card-img-top" style=" width: 100%; display: block;" src="https://res.cloudinary.com/ruparupa-com/image/upload/c_scale,w_210/v1476932609/10065474_1.jpg">
+                                                <div class="wishlist-label">
+                                                    <img src="https://d78vgah46qwfq.cloudfront.net/assets/icon-addto-fav-5800b8a74e00c4095fb3263257d98f9402c3e54925119b286620df63631bed5f.png">
+                                                </div>
+                                                <div class="notification-card">
+                                                    <p>Limited stock!</p>
+                                                </div>
+                                            </div>
+                                            <div class="card-block">
+                                                <h4 class="card-title text-left">Stockholm 3 Seater Sofa Cushions - Grani...</h4>
+                                                <div>
+                                                    <p class="card-text text-left old-price"><span class="price-line-through">Rp 5.000.000</span><span class="discount-card">50%</span>
+                                                    </p>
+                                                </div>
+                                                <div>
+                                                    <p class="card-text text-left last-price">Rp 2.500.000</p>
+                                                </div>
+                                            </div>
+                                            <!--  <div class="card-footer installment">
+                                <small class="text-muted">Cicilan 12 x Rp 208.333</small>
+                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- -->
+                                <div class="swiper-slide">
+                                    <div class="card-group">
+                                        <div class="card">
+                                            <img class="card-img-top" style=" width: 100%; display: block;" src="https://res.cloudinary.com/ruparupa-com/image/upload/v1476947299/10031493_1.jpg">
+                                            <div class="wishlist-label">
+                                                <img src="https://d78vgah46qwfq.cloudfront.net/assets/icon-faved-5d32823fe7bcefdb4d948f2bec24cca8f4183ab2db71b377e7872b85c745b761.png">
+                                            </div>
+                                            <div class="card-block">
+                                                <h4 class="card-title text-left">Stockholm 3 Seater Sofa Cushions - Grani...</h4>
+                                                <div>
+                                                    <p class="card-text text-left old-price-none"></p>
+                                                </div>
+                                                <div>
+                                                    <p class="card-text text-left last-price">Rp 2.500.000</p>
+                                                </div>
+                                            </div>
+                                            <!--  <div class="card-footer installment">
+                                <small class="text-muted">Cicilan 12 x Rp 208.333</small>
+                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- -->
+                                <div class="swiper-slide">
+                                    <div class="card-group">
+                                        <div class="card sold-out">
+                                            <img class="card-img-top" style=" width: 100%; display: block;" src="https://res.cloudinary.com/ruparupa-com/image/upload/v1483596753/10059408_1.jpg">
+                                            <div class="wishlist-label">
+                                                <img src="https://d78vgah46qwfq.cloudfront.net/assets/icon-addto-fav-5800b8a74e00c4095fb3263257d98f9402c3e54925119b286620df63631bed5f.png">
+                                            </div>
+                                            <div class="label-card">
+                                                <img src="https://img.ruparupa.com/media/static/icon/label/icon_bestseller16.png">
+                                            </div>
+                                            <div class="card-block">
+                                                <h4 class="card-title text-left">Stockholm 3 Seater Sofa Cushions - Grani...</h4>
+                                                <div>
+                                                    <p class="card-text text-left old-price-none"></p>
+                                                </div>
+                                                <div>
+                                                    <p class="card-text text-left last-price">Rp 2.500.000</p>
+                                                </div>
+                                            </div>
+                                            <!--  <div class="card-footer installment">
+                                <small class="text-muted">Cicilan 12 x Rp 208.333</small>
+                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- -->
+
+                            </div>
+                        </div>
+			</div>
+
+        </div>
+
+        <!-- <div class="col-md-12 footer">
+            <ul class="nav navbar-nav">
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+            </ul>
+        </div>
+        -->
+
+    </div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/index.js"></script>
+
+    <script>
+        var swiper = new Swiper('.main-slider-banner', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            paginationClickable: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: 2500,
+            autoplayDisableOnInteraction: false
+        });
+        var swiper2 = new Swiper('.inspiration-slider', {
+            pagination: '.swiper-pagination2',
+            slidesPerView: 2.5,
+            paginationClickable: true,
+            spaceBetween: 16,
+            freeMode: true,
+            breakpoints: {
+                1024: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 16
+                },
+                768: {
+                    slidesPerView: 4.5,
+                    spaceBetween: 16
+                },
+                640: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 10
+                },
+                320: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 5
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>

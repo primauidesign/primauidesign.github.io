@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ruparupa 2.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        nav.navbar.navbar-default.navbar-fixed-top button.btn.btn-default.navbar-btn.register-button {
+            margin-right: 15px;
+        }
+        nav.navbar.navbar-default.navbar-fixed-top button.btn.btn-default.navbar-btn.signin-button {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div style="margin-top: 0px;"><a href="#"><img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1480063026/artboard/stripe-banner.jpg" style="width:100%"></a></div> -->
+    <!-- 1. Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <!-- <li class="active"><a href="#">Home</a></li> -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kategori <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Rumah Tangga</a>
+                            </li>
+                            <li><a href="#">Dapur Minimalis</a>
+                            </li>
+                            <li><a href="#">Bath & Bed</a>
+                            </li>
+                            <li><a href="#">Home Improvement</a>
+                            </li>
+                            <li><a href="#">Furniture</a>
+                            </li>
+                            <li><a href="#">Otomotif</a>
+                            </li>
+                            <li><a href="#">Hobi & Gaya Hidup</a>
+                            </li>
+                            <li><a href="#">Rumah Tangga</a>
+                            </li>
+                            <li><a href="#">Dapur Minimalis</a>
+                            </li>
+                            <li><a href="#">Bath & Bed</a>
+                            </li>
+                            <li><a href="#">Hobi & Gaya Hidup</a>
+                            </li>
+                            <li><a href="#">Rumah Tangga</a>
+                            </li>
+                            <li><a href="#">Dapur Minimalis</a>
+                            </li>
+                            <li><a href="#">Home Improvement</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../navbar/">Collection</a>
+                    </li>
+                    <li><a href="../navbar/">Inspiration</a>
+                    </li>
+                    <li><a href="../navbar/">Bantuan</a>
+                    </li>
+                    <li><a href="../navbar/">Flash Sale</a>
+                    </li>
+
+                    <!-- <li>
+          						<p class="navbar-btn">
+          							<a href="#" class="btn btn-default">Cart</a>
+          						</p>
+          					</li>-->
+                    <li>
+                        <button class="btn btn-default navbar-btn signin-button" type="button">Cart</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-default navbar-btn register-button" type="button">Masuk / Daftar</button>
+                    </li>
+                    <!-- <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a>
+                    </li> -->
+                </ul>
+                <form class="navbar-form search-waterbe">
+                    <div class="form-group" style="display:inline;">
+                        <div class="input-group" style="display:table;">
+                            <span class="input-group-addon" style="width:1%;"><span class="glyphicon glyphicon-search"></span></span>
+                            <input class="form-control" name="search" placeholder="Cari" autocomplete="off" autofocus type="text">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <!-- 2. Slider Banner -->
+    <style>
+        .list-category-rr {
+            padding: 5px 15px;
+            /* border-bottom: 0.5px solid #ddd; */
+        }
+        .list-category-rr img {
+            width: 3rem;
+        }
+        .list-category-rr span.hot {
+            color: red;
+            font-weight: 600;
+        }
+        .list-category-rr span {
+            padding: 0 5px;
+        }
+        .list-category-rr span.special {
+            background: red;
+            color: #fff;
+            border-radius: 5px;
+            font-weight: 600;
+            float: right;
+            width: 3em;
+            text-align: center;
+        }
+        span.special.flash-sale {
+            background: #FFEB3B;
+            color: #000;
+            font-weight: 500;
+        }
+    </style>
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <!--<div class="col-md-2">
+            	<div class="sidebar-rr-category" data-spy="affix" data-offset-top="0">
+				  	<div class="list-category-rr">
+						<img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1485835892/armchair-3_cbffp8.png">
+						<span class="hot">Gallery</span>
+						<span class="special">New</span>
+                    </div>
+                    <div class="list-category-rr">
+                    <img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1485835892/armchair-3_cbffp8.png">
+                    <span>Flash Sale</span>
+                    <span class="special flash-sale">Now!</span>
+                </div>
+                <div class="list-category-rr">
+                    <img src="https://res.cloudinary.com/ruparupa-com/image/upload/v1485835892/armchair-3_cbffp8.png">
+                    <span>Furniture</span>
+                </div>
+				</div>
+            </div>-->
+
+            <style>
+            </style>
+
+            <div class="col-md-2 scrollspy">
+                <ul id="nav" class="nav hidden-xs hidden-sm affix" data-spy="affix">
+                    <li class="active"><a rel="nofollow" href="#web-design">Web Design</a>
+                    </li>
+                    <li><a rel="nofollow" href="#web-development">Web Development</a>
+                        <ul class="nav">
+                            <li><a rel="nofollow" href="#ruby"><span class="fa fa-angle-double-right"></span>Ruby</a>
+                            </li>
+                            <li><a rel="nofollow" href="#python"><span class="fa fa-angle-double-right"></span>Python</a>
+                            </li>
+                            <li><a rel="nofollow" href="#php"><span class="fa fa-angle-double-right"></span>PHP</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a rel="nofollow" href="#marketing">Marketing</a>
+                    </li>
+                    <li><a rel="nofollow" href="#graphic-design">Graphic Design</a>
+                    </li>
+                    <li><a rel="nofollow" href="#logistics">Logistics</a>
+                    </li>
+                    <li><a rel="nofollow" href="#social">Social</a>
+                    </li>
+                    <li><a rel="nofollow" href="#management">Management</a>
+                    </li>
+                    <li><a rel="nofollow" href="#chemistry">Chemistry</a>
+                    </li>
+                    <li><a rel="nofollow" href="#mobile-development">Mobile Development</a>
+                        <ul class="nav">
+                            <li><a rel="nofollow" href="#android"><span class="fa fa-angle-double-right"></span>Android</a>
+                            </li>
+                            <li><a rel="nofollow" href="#iOS"><span class="fa fa-angle-double-right"></span>iOS</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a rel="nofollow" href="#mathematics">Mathematics</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-10">
+                <div class="banner-slider">
+                    <!-- Swiper -->
+                    <div class="swiper-container main-slider-banner">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="img-responsive" src="img/Banner-Slider1.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-responsive" src="img/Banner-Slider2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-responsive" src="img/Banner-Slider3.jpg" />
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <br>
+                <div class="swiper-container inspiration-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/inspirations_create-your-dream-office_bannerpage.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/perfect-gift-ideas_page-banner.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/banner-page-1022x350_5.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/inspirations_your-laundry-assistants_bannerpage.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/cleanitup_banner-page.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-responsive img-rounded " src="https://img.ruparupa.com/media/catalog/category/inspirations_home-electronics_banner-page.jpg">
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination swiper-pagination2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/index.js"></script>
+
+    <script>
+        var swiper = new Swiper('.main-slider-banner', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            paginationClickable: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: 2500,
+            autoplayDisableOnInteraction: false
+        });
+        var swiper2 = new Swiper('.inspiration-slider', {
+            pagination: '.swiper-pagination2',
+            slidesPerView: 2.5,
+            paginationClickable: true,
+            spaceBetween: 16,
+            freeMode: true,
+            breakpoints: {
+                1024: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 16
+                },
+                768: {
+                    slidesPerView: 4.5,
+                    spaceBetween: 16
+                },
+                640: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 10
+                },
+                320: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 5
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>
