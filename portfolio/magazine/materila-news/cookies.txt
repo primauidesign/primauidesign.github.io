@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-inceptionsystem.us	TRUE	/	FALSE	1999999999	wfvt_2390946158	5842bc57dfcce
-

@@ -1,5 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-19:50:16	44059/44059	---M--	200	added ('OK')	text/html	date:Sun,%2028%20Feb%202016%2007:04:06%20GMT	http://themezinho.net/mag/index.html	C:/Users/user/Documents/primauidesign.github.io/portfolio/magazine/new-magazine/themezinho.net/mag/index.html	(from )
-19:50:17	26/26	---MC-	200	added ('OK')	text/plain	date:Sat,%2003%20Dec%202016%2012:50:16%20GMT	http://themezinho.net/robots.txt		(from )
-19:50:19	0/0	---M--	301	error ('Moved%20Permanently')	text/html	date:Sat,%2003%20Dec%202016%2012:50:19%20GMT	http://www.themezinho.net/mag/preview.png	C:/Users/user/Documents/primauidesign.github.io/portfolio/magazine/new-magazine/www.themezinho.net/mag/preview.1.delayed	(from http://themezinho.net/mag/index.html)
-19:50:19	0/-1	---M--	301	error ('')			http://www.themezinho.net/mag/preview.png	C:/Users/user/Documents/primauidesign.github.io/portfolio/magazine/new-magazine/www.themezinho.net/mag/preview.2.delayed	(from http://themezinho.net/mag/index.html)
